@@ -8,15 +8,15 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AnalysysSDK'
-  s.version          = '4.4.7'
+  s.version          = '4.5.2'
   s.summary          = 'This is the official iOS SDK for Analysys.'
   s.homepage         = 'https://github.com/analysys/ana-ios-sdk'
   s.license          = { :type => 'GPL', :file => 'LICENSE' }
   s.author           = { 'analysys' => 'analysysSDK@analysys.com.cn' }
   s.source           = { :git => 'https://github.com/analysys/ana-ios-sdk.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   
-  s.frameworks   = 'UIKit', 'Foundation', 'SystemConfiguration', 'CoreTelephony', 'AdSupport'
+  s.frameworks   = 'UIKit', 'Foundation', 'SystemConfiguration', 'CoreTelephony', 'AdSupport', 'WebKit'
   s.libraries    = 'z', 'sqlite3', 'icucore'
 
   s.source_files = 'AnalysysSDK/Classes/**/*'
