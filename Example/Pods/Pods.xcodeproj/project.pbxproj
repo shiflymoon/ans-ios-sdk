@@ -7,240 +7,241 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0229E77F8B400D7F70AFC0EB6BAE2898 /* ANSSequenceGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 123E71DE2C7417A1FA4F54D1CAC898EA /* ANSSequenceGenerator.m */; };
-		04EFEE1E02E9B8E1F589F33EEA09136B /* ANSQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F4488F78C482FA2B48C4ABE826DFF370 /* ANSQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		055D5C0280E7C47B0E74E38ED72FE04B /* ANSValueTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = CE16D1941F2E7BFBBDCE1CEE7AE0A1AA /* ANSValueTransformers.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		05D92A91336C74438E9088970D28AE7C /* ANSDataConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F2091011728C87BBD381F45B57E28DD2 /* ANSDataConfig.m */; };
-		085DDB3E80E74EF95CC8A6E73F468709 /* ANSDataEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCA03ACFFE5C363C61E4B58589F2503 /* ANSDataEncrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		099FCE54A39803AB8177C9CC5A34B02A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6389EDE0B4D207F91A2BEB156844C233 /* CoreTelephony.framework */; };
-		09C89B91FEF067CCE8139B00F5DEE797 /* UIView+ANSAllBuryIdentifer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD454CC480D5580FD70E0A47A37DBDA /* UIView+ANSAllBuryIdentifer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0D68C13961147063BB6F9331B1ED74E0 /* ANSNSNumberToCGFloatValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB39840D891375F214A150C0CC522C /* ANSNSNumberToCGFloatValueTransformer.m */; };
-		0E1121763D73606ACC92B612106FD3BD /* ANSUIEdgeInsetsToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD16EDFDDE326477191B78FA3F2280BC /* ANSUIEdgeInsetsToNSDictionaryValueTransformer.m */; };
-		0E3E87B5B9BDD975CD5E98CF6DF13586 /* ANSAESAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE2FE18640CAED532DEDEA14BF4155 /* ANSAESAlgorithm.m */; };
-		0ECF76A508F514679319B1556CCDBEC9 /* ANSTelephonyNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D4DAC3F7BCB484DA641B0E184E33F1 /* ANSTelephonyNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		118670BC8423B3E00500FF8D2D128E9C /* ANSSequenceGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 11AA3A3E11F70355788A6C69C0EF18B7 /* ANSSequenceGenerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		11B35F5C6761C25AB0A255FDC9D0B800 /* ANSTelephonyNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BBC6877573A340480DA792CEB917D5 /* ANSTelephonyNetwork.m */; };
-		12CDCC530642603C56FA1647CF2AF71A /* ANSSwizzlerNoConflict.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C06A2AA3692A06A56DD753898521ADD /* ANSSwizzlerNoConflict.m */; };
-		13529439DC7A15CCD3B097A3949CD563 /* ANSServerStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 30427A1CDDFFE05CFD45475583BFCF6B /* ANSServerStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		148EA4BE1A280CB7E85A91800A1A4C78 /* HeatMapFieldRules.json in Resources */ = {isa = PBXBuildFile; fileRef = 8592284529FB0E9082AEF836CCBA35F6 /* HeatMapFieldRules.json */; };
-		155317D353F3F33219B1810C8BE14FE3 /* ANSPassThroughValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25122EA03BB25BCB2C922BFFE20B1613 /* ANSPassThroughValueTransformer.m */; };
-		158266C21C2FEC888778AE36133193B1 /* ANSAllBuryPointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B32A41AEA6D9DBB23FD14059B2633E40 /* ANSAllBuryPointModel.m */; };
-		1623D9E1531524A31D5D7EBFD79EE8D3 /* ANSHeatMapFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 16666275343474A01FF09B7C2CA62D88 /* ANSHeatMapFunc.m */; };
-		17A07966342672B7E154581A3CEEC2D1 /* ANSABTestDesignerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8138C250DFDFA2DE467C68DAC453EDFA /* ANSABTestDesignerConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1869601CAC7503EE53CE408ECF960558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E31CCDA6D93F71A21233FE97D91D0EB /* Foundation.framework */; };
-		186C7C6DA65C92D66DDCBE6AAB4A1251 /* NSInvocation+ANSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D3070377F6CDCDAB094A29BEFB76D5 /* NSInvocation+ANSHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		19400C0720984D9B89B72138E092F369 /* ANSJsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A42CD9705D312A48786E8225E4AD40D7 /* ANSJsonUtil.m */; };
-		1AA45E8E6D221F4FB06E533A0F268CF0 /* ANSDesignerEventBindingRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D118AB67471B52D00695FA68B787D84D /* ANSDesignerEventBindingRequestMessage.m */; };
-		1B5DB1822474A919DC9964FA9D4E3069 /* ANSHeatMapFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCED58922A27300EDC00AD8EF8C0106 /* ANSHeatMapFunc.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		205C5B1C782D4271E752C2D7BCC71AF6 /* ANSGzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C6726A3188EA6A106ECEE5A609B561 /* ANSGzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		22E89673AA21720F8F847C649306F900 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E28CD5459D2E0E75D5F32E09E4A9A1 /* AdSupport.framework */; };
-		232000F78FA091F66E49F2CD02D36A99 /* ANSDataCheckLog.h in Headers */ = {isa = PBXBuildFile; fileRef = EC343B6880AE320886905E0BFCCC7E89 /* ANSDataCheckLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		26328B34C995186E756C27F55C5A9776 /* ANSObjectIdentityProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = BC20ADA5A45CEFC16596FB82D8376D94 /* ANSObjectIdentityProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		26AB1EFE061D58B6FE357A9D1D6698D7 /* ANSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B362211AEEB7E8780D8E773490AE80C /* ANSFileManager.m */; };
-		276F6C3979E01A543A1EA9A3AA08E17B /* ANSBundleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D4A43B1EAA0C8AD4933257DC885D68 /* ANSBundleUtil.m */; };
-		283B05E7197BDE768E88692AA515741C /* ANSDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A23979B2416404CB7366D2DBCE7B674 /* ANSDeviceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		29F14127B13D3863815CF1D33F09DB11 /* NSString+ANSDBEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFE824C3B27E4B3948BA7D4D4F20789 /* NSString+ANSDBEncrypt.m */; };
-		2A5CB8B6BFC7AF214DA5A81D3EF2E9DE /* ANSCATransform3DToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C821E194D1226488F9D2188E447CDFE /* ANSCATransform3DToNSDictionaryValueTransformer.m */; };
-		2BA305362DDD29B739A82E23586A05D2 /* ANSAllBuryPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A9354405F23C7D75A6DC265F8F407F96 /* ANSAllBuryPoint.m */; };
-		2DC3B501BF49F7FC96BC50434CEA5E45 /* ANSABTestDesignerSnapshotRequestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E7C2E9811484B0ED87CF7C166F2294 /* ANSABTestDesignerSnapshotRequestMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2F856586ACA5DCC5FA403231AD20A2D9 /* ANSKeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFD8D30C77CA952E4BE71CC0D2F344F /* ANSKeychainItemWrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2F9001ADFC42232D96F08BB97934BE65 /* ANSLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C136619252E99AB16BA27CA9913BDB /* ANSLock.m */; };
-		2FE35B6A284B7E65ADA69C2630A300CF /* ANSDesignerTrackMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F8B4FF9731797A8BE8E0BE65292A5 /* ANSDesignerTrackMessage.m */; };
-		3143C094B815891BF1B9C5A7B982001C /* ANSBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA08FAFD8EB57957503F390980785C /* ANSBaseModel.m */; };
-		33389300BD925EFEF65ACB5028E61ED4 /* UIView+ANSPathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A616811C112A0537C375AF8B5570DE /* UIView+ANSPathUtils.m */; };
-		33D8586962F0C289C3CB73385D34F00B /* ANSControllerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D38F8C10404307BEA33A63577CDA74 /* ANSControllerUtils.m */; };
-		34557BA70AA52419C06E5B10C7D611EA /* AnalysysVisual.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CA19EFE55DFBC5551DCE206B695C75 /* AnalysysVisual.m */; };
-		3589CF8DC06FBBDBE44106B270B0C69F /* ANSPageAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D97BDD0CD1C7B4F77C2D21C46CAEB86 /* ANSPageAutoTrack.m */; };
-		36649D984ED96210F5E8ECCEF525A276 /* UIView+ANSAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C58E835EEFDE315516E701A1750E0 /* UIView+ANSAutoTrack.m */; };
-		370437E203266687943E8C6B0E8C4D2D /* ANSProtocolSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 420CB8717AB398E8F0DCE6EDD576C67D /* ANSProtocolSwizzler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3821AD825C5C39EC4A8E007443B9F95D /* ANSTimeCheckManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4387097724609DB59A43A368373E7E /* ANSTimeCheckManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		385E7DBD2DA15D9198F2015B9A4AEB7E /* NSThread+ANSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34100E6EA8B9B1B37476B18081FD78E6 /* NSThread+ANSHelper.m */; };
-		3AA5609079EF63690894C1FB57E911C1 /* ANSUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E91F0F834BE2E910DC9A2D67A3FF8094 /* ANSUploadManager.m */; };
-		3C153797864CEEBC1ECFC1433ABC2FF3 /* ANSDataEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C64195C7EA6B4497FA0671DF686332A7 /* ANSDataEncrypt.m */; };
-		3C4BE27AAB014049A7E8BF299564CF0C /* ANSObjectSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C9DB8DC4372E1760C5D20751D551C7 /* ANSObjectSelector.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3C62CD9A321695FF483C8BEF3AE62D1D /* ANSDataProcessing.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E76786501834C42844C554F4C54FF66 /* ANSDataProcessing.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3D80A63DC53AC6489EAAD0D52CCD18CC /* ANSUIImageToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B4BF679532B06B52462A73F2541439 /* ANSUIImageToNSDictionaryValueTransformer.m */; };
-		3FB35BD881167ECD74D1063F41CCF643 /* ANSObjectIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B631421BA132E4A59093A44166D2A3A /* ANSObjectIdentityProvider.m */; };
-		3FE17743DFD250C58E4B717D9A1B8534 /* UIView+ANSAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB0CA014CB1C16A50DF5CC4F0DFD789 /* UIView+ANSAutoTrack.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		413B8BD4ED23AB87CC94363D4CE04D0F /* ANSUITableViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = F2987817E23ACDB6D3C8EAEF91B2A227 /* ANSUITableViewBinding.m */; };
-		42411F677C2630EB6B6A3DF7B9C728D7 /* ANSConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8BDFD65E5FA2AA1A62C6CC8D7E0B99 /* ANSConst.m */; };
-		436A4451410D4BB395F896B69C6900EE /* ANSABTestDesignerMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4F39CCFBD2111278018A8DD9316A31 /* ANSABTestDesignerMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		44AADE158533A883E1AB4059F1E99058 /* AnalysysSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F980CF7AD69171263F0FA0308ACE9B /* AnalysysSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4551122B9AB5C128EE902CEFD9D3FE47 /* ANSSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A906F984596D6E61904518861D533F /* ANSSession.m */; };
-		456AD1F25DBC64C7E19AC41DB70F7E46 /* ANSDataCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 706C862F331BD0BA7BC9EBA4CED3500E /* ANSDataCheck.m */; };
-		47540CF5E9DA521864445394CBF580A0 /* ANSDataConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6D7B33E2BC2E6A34436F8C559D16A5 /* ANSDataConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		481F849394B3358EDDD54C8BA047E3F0 /* ANSDefaultStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 877F1047CF5145354BE05451A5DE2358 /* ANSDefaultStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4870A8939020B101C88FF742EBB24F83 /* ANSPropertyDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 0887C56EDDD3CFC159CE4216CD3DE534 /* ANSPropertyDescription.m */; };
-		492DCEBB6E91F0F3E8C41F3A62E30702 /* AnalysysSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8197D53FE2052865A859C0CD6920D76 /* AnalysysSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		493BFEDD8D7DC238F5D6637235B74283 /* ANSWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = FE69130A0622D51710A3A45F55A97606 /* ANSWebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		499E71F2EF7682745FD8F46ED745CA42 /* ANSReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0644D05393A5DFF6DF6CD83A88FF2EDA /* ANSReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		49F9C9E8CB526F64C98FF308A35FE613 /* ANSMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = CB65BB4AB915231FB913A81ECF9846D3 /* ANSMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4BF3565475BAEDD1C3C6D7EB5419CC8F /* ANSConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E529BC358562899E944B59C320B076C /* ANSConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CC4C0ACFA15A70201C507BA51DB195E /* ANSUIFontToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B8902CA9E82416D80BEE82FFBA485D74 /* ANSUIFontToNSDictionaryValueTransformer.m */; };
-		4D344221ED87D168032C16B620B0147D /* ANSObjectSerializerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E2183824E41818CDFC725718043200E4 /* ANSObjectSerializerConfig.m */; };
-		4DB0ACAE49082C07E1E2EF0B88E65FE7 /* ANSDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB5ADFD6DE3F5B27CDBF08DD5FB1D41 /* ANSDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4F109D3B73A3EF4DF15360701526CCA3 /* ANSClassDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CBC59BC3A1748E09DAEB97C6847530C /* ANSClassDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4FACC59F4ECDD6B082F7F57E9DA3C1DE /* ANSObjectSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = B808A5DAEEA091B6DD765D854FD03C64 /* ANSObjectSelector.m */; };
-		507B9FDC9FCBA50AA1FB9EDD51B803F7 /* ANSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F751D7F1BD472880F8A20A76650BF72C /* ANSQueue.m */; };
-		51372F6E56E8615CA52C191DD0B5A674 /* ANSKeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F7AE0DB029162CC7A083DDFD63336 /* ANSKeychainItemWrapper.m */; };
-		52FF012BB0DD5B5E92136F3585323002 /* ANSEventBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA71D89156E4A9E118630D1283855D2 /* ANSEventBinding.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5408B2C45E3FD5328F45035341D50456 /* ANSAESAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 304F1680DFC2387E508FCAEBF34D5422 /* ANSAESAlgorithm.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		54BEF3F91A1E059650FDE40BF15084A7 /* UIView+ANSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF6CC16315D7D520E7AD6ABCFA19A95 /* UIView+ANSHelper.m */; };
-		5533D1BF8E9DC6A8ACD3084FC1052ED2 /* ANSAppStartSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5054E0B40E4808658190981B1A160745 /* ANSAppStartSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		570E33E7002F301A99333B33266F5515 /* NSString+ANSDBEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD10A7EBEF2B51ADCC1AE4741946389 /* NSString+ANSDBEncrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		58EF3DE465AEBEA9A66CB20AAF06790D /* ANSModuleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CB57CF18BBBEEA32472B0DEEE32C5BD3 /* ANSModuleConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5A566E2FE0234851D4D027D375C066D0 /* ANSDataCheckRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A437ADBE461B3D92E7C956075153B3 /* ANSDataCheckRouter.m */; };
-		5A78AF99A4D567EB8DE3EC4AC84AEE4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782428E797EAF60C6B46112E66836FCC /* UIKit.framework */; };
-		5ADB31D691D86799FBDB8C7F9AD29BE4 /* ANSBundleUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F639FB344E338362D67B6DEF6834F8 /* ANSBundleUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C122B35162B2D1EEB689A447ED0E1EF /* ANSPropertyDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 308DC062C1E01AE1E6FD9A10B51B3DCA /* ANSPropertyDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5E4CB5DD953128392C32FDB2DB0647CF /* ANSABTestDesignerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC19F1931A1AB7EAD88764737A0E059 /* ANSABTestDesignerConnection.m */; };
-		5E7A1AF764AC7B10C268BE6F566942A0 /* ANSUserStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DECF56FECC43C8670C875BFD238D9F /* ANSUserStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		61A85D93E2CDDFCF811B823AF5AA2788 /* ANSDesignerSessionCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F09CF057E129EA3A5DE1B577BEB1AD /* ANSDesignerSessionCollection.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		61EB00C12F832BD04F0512FB766A1564 /* ANSDataFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = A946B66D8689D74C92FF6CE3E22654E1 /* ANSDataFunc.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		62007199D59B574C66B4270701918012 /* ANSLock.h in Headers */ = {isa = PBXBuildFile; fileRef = DEEC75FED8E76232C69ADEB5A689A0F9 /* ANSLock.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		65C8F5BFEFE41E05F7FF868072208D64 /* ANSModuleProcessing.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F742CDEFC27E0D4B5BCC3391CFF6C /* ANSModuleProcessing.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		662087295DDD42A84010AE481A2ED477 /* ANSOpenURLAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B97CCC50BD20352305CE07506E0B20 /* ANSOpenURLAutoTrack.m */; };
-		6676E0BEB7A7C9EEE98EAD62B5446FE5 /* DefaultLifeCycleConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 640EEF7D7535A01B8A135276108D7BF4 /* DefaultLifeCycleConfig.json */; };
-		66C4F2E8602EA6ECB53BF3D33D27A69D /* ANSHybrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E60A4A8E1929BE8E8FD95E624CA5805 /* ANSHybrid.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6B4314525691FA52AE11958B453FA32E /* ANSUncaughtExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E58776923D28CE33A316E12180FF4E /* ANSUncaughtExceptionHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6B861B99D4F29FD4EC1605B34A33EC7C /* NSThread+ANSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5EF483A9D3BF3E7B7CCC66F88ED18B /* NSThread+ANSHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6BFAC6ABBC21860E0C39FFCA8C287242 /* ANSBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A0CB2F40D1396A70B064B182CB5CEC /* ANSBaseModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6C7C8278CAC4B2F782154CA424DD3CF4 /* ANSDataProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8413AA344C4C1CF16B0EA15BB5376F /* ANSDataProcessing.m */; };
-		6C9D3F4EB063FD4A2C53640611639588 /* ANSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF52B2EF1E1B903D7CBAB7393694F22 /* ANSUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		70514F3225BA3BC05FC3CAB84DB0639D /* DefaultTemplateData.json in Resources */ = {isa = PBXBuildFile; fileRef = DDE6DF6A5CFB76B7C7ED45CCFA0EB837 /* DefaultTemplateData.json */; };
-		75428697023EC737901F458E2B3A1BD8 /* AnalysysAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 396849704742CD7E0053DC170DF0061C /* AnalysysAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75BE3087B05801EB8A9755874C8ED0A2 /* ANSABTestDesignerDeviceInfoResponseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C86F5FAC961F22864F0EDA66FDF57937 /* ANSABTestDesignerDeviceInfoResponseMessage.m */; };
-		75F015E33000ECF19AB656F703C7B6C6 /* ANSStrategyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F3F96ABDB665DEABAC2EE9AAEF514F /* ANSStrategyManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		764225422830F27B1CBF884EA8A479F2 /* ANSControllerUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5362D1018C6602169A42CE0743D22B8E /* ANSControllerUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		771DAAFDCBC6C530774059C9F928ED29 /* ANSABTestDesignerDeviceInfoRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 805CFEC8026706A5D356CDBCCB8E6B2A /* ANSABTestDesignerDeviceInfoRequestMessage.m */; };
-		773C0DF0E469873C28E2A2D90377A1B7 /* ANSModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C59DD74167E51934B5866BEAE89780BB /* ANSModuleConfig.m */; };
-		7A05D7BE70CB1CFFBF201F4E7500DA67 /* ANSCGRectToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D0E11EB99DFC697E3860AD0D15CEC /* ANSCGRectToNSDictionaryValueTransformer.m */; };
-		7CD36CE7B7BAD17F89C956DB02390E12 /* Pods-AnalysysSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DEAD627D4FE7A04D47765D617B0C127 /* Pods-AnalysysSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F8B849848D8C5FCE4E0D246C3C88801 /* ANSSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B279B5722C6DDFCF7FDFC0D699AF31CC /* ANSSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		80519867B2FD9EF5F7179D2C3E4635D5 /* AnalysysAgent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0DAFCC263B176A13C8340A9734A17C6B /* AnalysysAgent.bundle */; };
-		80946C85E097B20C47B2A88CEE02E555 /* UIView+ANSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E4831B78140E3765E92473416D623415 /* UIView+ANSHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		833982B3C8BEF6EBA1BCA2941254EF29 /* ANSEnumDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1E625E9037D0D84611A7AB901F140D /* ANSEnumDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8429E877093D46F8C836B2E9FC28E117 /* ANSObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B5F984B4B5AFD9160CD29C61F0A8A /* ANSObjectSerializer.m */; };
-		8505E0C71D1D2166859EEBC6B5A34563 /* ANSKeyNameConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A33933B9D7735D6690A3EC9E91C1BC /* ANSKeyNameConst.m */; };
-		8763BEA23484CDFED7C933D4A0713207 /* AnalysysAgentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F57F24920FB8570173A624E96688EE /* AnalysysAgentConfig.m */; };
-		87D875723D67DF5F10D9A4D1481045E1 /* ANSApplicationStateSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC31C99A78908CB965C12C58EA779E2 /* ANSApplicationStateSerializer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8817CC2B14C4C69845EBED189BD5BE53 /* ANSEnumDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 606AE5D72384442E767BC918DC6C791B /* ANSEnumDescription.m */; };
-		8A9E28F3C8763AB2FF0370E5C864FF93 /* ANSDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FC64A37F946E6D0F96787E7500C94391 /* ANSDeviceInfo.m */; };
-		8C1BD900D28D22A936D094F9EB3AAC94 /* ANSObjectSerializerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 482FF19089FD69531049595ED25A0772 /* ANSObjectSerializerConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8C25E9569C51A13249E8DD03B6647136 /* ANSObjectSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 615A7E3F003F10AC5E23E26C7823EC65 /* ANSObjectSerializer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8DB168BEC39275344C50D22C48693244 /* ANSUserStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 025A15BD9F64C8D20269C292902C2AA9 /* ANSUserStrategy.m */; };
-		9030DECB41734155BC4DD06F6FB32606 /* ANSABTestDesignerSnapshotResponseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3D8C64342770CC8CA497D57DBF1E88 /* ANSABTestDesignerSnapshotResponseMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9147DF6A74042D5CB950E9C0CCB344DE /* ANSVisualSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F3D9FDD01C96B684AD7D1AA16B9196 /* ANSVisualSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		916E590E598D3E647199E2371AC95B06 /* ANSDataCheckLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4672DC1063650463C63B26731E1AA6 /* ANSDataCheckLog.m */; };
-		92746C3B8B81474C4798A2265B20E4C1 /* ANSABTestDesignerDeviceInfoRequestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = FB5BFF9B66CA65A0A7250143AF1919FF /* ANSABTestDesignerDeviceInfoRequestMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		941FD4ED5827D8687E280F68EADB05D3 /* ANSDefaultStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B4B2B47B16E7E9673E9BFA3BC15D5E /* ANSDefaultStrategy.m */; };
-		946CBA2D76D3F70B92375E7B5AED8EC8 /* ANSVisualSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B224196B4C4576576DAF792A6B83F9B /* ANSVisualSDK.m */; };
-		95391408AACEB9158C3BA17C1EFFB930 /* ANSLogParamsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B7F166C817923ECD190F8C18432B97 /* ANSLogParamsUtil.m */; };
-		95866DCBEAEA44FDF2CB857E3CB1EEA2 /* AnalysysSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 202344A4AE480A850E7CEF40BFB0A85D /* AnalysysSDK.m */; };
-		95F02C95558F9B8F7D43264885DACD75 /* ANSAllBuryPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6E7655B77D96DC79F659113263957C /* ANSAllBuryPoint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9693C4AF0A5EF1851FD3335024A91C39 /* ANSCGColorRefToNSStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A869D70B8C5E91086ADB7FEE8DD00C71 /* ANSCGColorRefToNSStringValueTransformer.m */; };
-		9AFEB8C927CFA9F3E879B13BF56FF2AA /* ANSMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1291EC9D7DC509EA9FBE00F0268086A2 /* ANSMediator.m */; };
-		9B2A4409D00DDE8442DE9B0985DB1B92 /* ANSAllBuryPointModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F8FAF1398EF855C440E84F258FD8F1 /* ANSAllBuryPointModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9B3D48240079181B7D4197D06C518E0A /* ANSDataCheckRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A404CBB5F59D32B543931959029A341 /* ANSDataCheckRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9BD609974DFAF7B8785E4DAA5952EE8A /* ANSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DED0BAFBE66BEA83DC3997DA83FF0C8D /* ANSReachability.m */; };
-		9C9F8DD61B83B07D6E9DFB030130CB18 /* AnalysysAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE62DD7ADC6B50C702E071E9E2DFF60 /* AnalysysAgent.m */; };
-		9DD1D03428E9B204F08200C6B62E1EB1 /* ANSCGSizeToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0A8731A80FAEC6CD9AF1CB1DB5AC8A /* ANSCGSizeToNSDictionaryValueTransformer.m */; };
-		A04125592DEE460956F6F1D0DF79E554 /* ANSLogParamsUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE7AA413440C94D5514DFD3080A5E93 /* ANSLogParamsUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A053A89B0F83197C1B14BF04B3DECA9E /* ANSHybrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F490DAEC37CA78BEC35007F778F3F /* ANSHybrid.m */; };
-		A1DA5C9AE8E466DFF117EACF9635C451 /* ANSJsonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 80438BC23B069741432722B82E6813E9 /* ANSJsonUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A36AD70F9F33D80E77CDEFD1F8BAAB3A /* ANSSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDD196C5F2376086625C6F781EA122C /* ANSSwizzler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A6C854744CB8F81C0BA760AA89BAF900 /* ANSAutoTrackProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB28E923AD6994FE68F6BEAECEF8721 /* ANSAutoTrackProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A73BBDA55DEE825A6A8D8369E5CB5FFD /* UIView+ANSAllBuryIdentifer.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F224F34CC5EEB88FC4A4C2A632564 /* UIView+ANSAllBuryIdentifer.m */; };
-		A7C65523BE00262C32A38D114BA820FF /* ANSCGAffineTransformToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C4E73F7DD33317D2E871434F3E376E /* ANSCGAffineTransformToNSDictionaryValueTransformer.m */; };
-		A830FE87072C54CF99AB8DF5166D887A /* AnalysysLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 55683B4CCB1C3AD7352040FEA8E75B65 /* AnalysysLogger.m */; };
-		A93CB887F6E34846DD5DC860DC685291 /* ANSFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B751FDBA3B04ADC28465075DBC2C6E /* ANSFileManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AA8D4BA276358F821C3812D26D317483 /* ANSDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB875077A037378D3714AC57B1F6528 /* ANSDatabase.m */; };
-		AAFB89F63F00C31250C43BFB47404980 /* ANSABTestDesignerSnapshotRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E326073AC813D11D0E438350C829D3 /* ANSABTestDesignerSnapshotRequestMessage.m */; };
-		AD703E898EE8B4AA7B6D9A5D95FF71EE /* Pods-AnalysysSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F989FE9DC7FCD84BA2E2B09F936BF48 /* Pods-AnalysysSDK_Example-dummy.m */; };
-		AF463C3D0EF900CACA82467D100734ED /* ANSDataFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA167E72D8FFC5BC5202978474EA4FA /* ANSDataFunc.m */; };
-		AFA68BC227A6E8CD1E64A8FAEAF5C888 /* AnalysysVisual.h in Headers */ = {isa = PBXBuildFile; fileRef = 27292FD40BDD68C2B0A54BC096518249 /* AnalysysVisual.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B017D27E4144474F09C4B8DC4DD91B27 /* NSString+ANSMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA76F59A531D9467FBE85DD5E946723 /* NSString+ANSMD5.m */; };
-		B26A7E000CBE5FCE09E5B9FF870C9FDD /* ANSDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3928A0D33131F2911B052128E783E98F /* ANSDateUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B50C6561897B9DA771A4A6EA3931B95B /* NSObject+ANSSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA0AD0BC7885FFEB1E2449669203C45 /* NSObject+ANSSwizzling.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B6CF20F8F55F6248841D440C454AC050 /* ANSDelayStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC6D6AE254EB6707EE1D69DDCD126BF /* ANSDelayStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B70AEE2CB936DC010A1026F76B95A22A /* ANSUIControlBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F79550B50A0368168FCC1891BDC2353 /* ANSUIControlBinding.m */; };
-		B7BDE405E8A4C93CCDC5D655ABE20CE6 /* ANSAbstractABTestDesignerMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1772C88C79B5DCD24EC3C8C43BEC03 /* ANSAbstractABTestDesignerMessage.m */; };
-		B7E136A41127EBCEE83E2F3BF0760973 /* ANSTypeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B49A5D99D7D8601D03CAC3A393D54 /* ANSTypeDescription.m */; };
-		B828AF9A626F90D5FBD2BFC698E03AD9 /* AnalysysAgent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36A9BAC717000087A4847571CCC97044 /* AnalysysAgent.bundle */; };
-		B8970A08A9D27ED3AC55C5DD0B549E76 /* ANSModuleProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 453089476CF6B06F125AD0954171661B /* ANSModuleProcessing.m */; };
-		BA9CD7020F27672E5B37FD5B9FF00321 /* ANSHeatMapAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1573F4662493CF7708F583037257B0 /* ANSHeatMapAutoTrack.m */; };
-		BB1BFFAC93FFB34E1BF084AF4CA92C05 /* ANSEncryptUtis.h in Headers */ = {isa = PBXBuildFile; fileRef = 660BEA3164E0C8DEAEEEE906195C527C /* ANSEncryptUtis.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BC7CAB9E848A264578AC76D9F690220E /* AnalysysLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3167A55B33A63002E911E371C9E69F /* AnalysysLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BC7D799A3D91E58DD2C5939183DB0AA5 /* ANSAllBuryIdentiferProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D060CB17BD5A1C86B0C290AC37222998 /* ANSAllBuryIdentiferProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE9C4764854877C093B1A1203339D6F4 /* DefaultFieldRules.json in Resources */ = {isa = PBXBuildFile; fileRef = 2110BA50477F058F6110E297ECD3F7D5 /* DefaultFieldRules.json */; };
-		C1F6AAAC0B9EF0D1F32E331D996BBF4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E31CCDA6D93F71A21233FE97D91D0EB /* Foundation.framework */; };
-		C277C8EEC606960354EEE90D4425B6E4 /* NSInvocation+ANSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 51182B6A2C3E70231B255020866ADD94 /* NSInvocation+ANSHelper.m */; };
-		C4EE3E199B69036E361820919D4A61DA /* ANSUIColorToNSStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E40917AE5A17419CD563F57EE9B9C /* ANSUIColorToNSStringValueTransformer.m */; };
-		C6B4D24A8A3D2E95E6EC29F0AFB83F82 /* ANSABTestDesignerDeviceInfoResponseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F860E62B352CF4CA425DE6F0240AC4 /* ANSABTestDesignerDeviceInfoResponseMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C78B3F4C7523962176E126EA7364434C /* ANSDesignerEventBindingMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 36890628DDA54B8D3DF34A72EC2504B2 /* ANSDesignerEventBindingMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C966D68B21ED4D67E4F93A47CAAC8BCB /* ANSGzip.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FADAE3517F7365820AF25806C0D2C40 /* ANSGzip.m */; };
-		CA82F831C56D229E10B19C8EFBC353B7 /* ANSDesignerEventBindingResponseMesssage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDB9709825C2FB3BFF7DE07AAC2E78 /* ANSDesignerEventBindingResponseMesssage.m */; };
-		CACAA31E04FBB26186BF7317390EE7E5 /* ANSUploadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DBA741A28045951E3D614D450206604 /* ANSUploadManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CCB37E377DB499223C4FECEBB50CEEE5 /* ANSObjectSerializerContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2012C0FF936968B80A574380AD1358B2 /* ANSObjectSerializerContext.m */; };
-		D0DAF34B97F60B1EB005882BCCD58506 /* UIViewController+ANSSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = DC55AFE3C8E2F997295DC8DF14925C6D /* UIViewController+ANSSwizzling.m */; };
-		D1A970744D597F1C3C4DD35E90D0E580 /* ANSAbstractABTestDesignerMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9BF1C0FA637DC1FE098B0245CC097B /* ANSAbstractABTestDesignerMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D2EF5C76CB5B953E8AB0302F0E51B7CD /* ANSNSAttributedStringToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EBB5EC6DE058DF7C379D1F534D5CD /* ANSNSAttributedStringToNSDictionaryValueTransformer.m */; };
-		D33ED99D071A3F82172346DD8AC31F59 /* ANSEncryptUtis.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D344E08FEB52DFA2F4E217E96D8B73 /* ANSEncryptUtis.m */; };
-		D39BDC6CE656CF8C40E94F564EF37EA5 /* ANSTypeDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBE7E24A265FA5EAF4230CE62B3CF10 /* ANSTypeDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D7B592009BD422E827FF92E9CA054105 /* ANSAutoTrackCellProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = E889CD6AC468985B42AFA97CA426BA7F /* ANSAutoTrackCellProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D81D69D4A0B5213DA7C533542AED77D0 /* AnalysysPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 67929D806D1C1D0CB734986326C49D24 /* AnalysysPush.m */; };
-		DA196065C5D030D3986E39D9BF303BF3 /* NSObject+ANSSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA40CA1CC9652DAD44B4CBB66100EE /* NSObject+ANSSwizzling.m */; };
-		DA1B154D34C8FD37D2DD119721F6D714 /* ANSDataCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E295C37FC47C30C3981EB56DF8C122A /* ANSDataCheck.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DA6EFD55BB1375A32AC5710BDF153455 /* ANSConst+private.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B29E88FD37A775137136403E5C1C73 /* ANSConst+private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DABE0C880020A733150456069BDE9B80 /* ANSUIControlBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC72AB7B1D783E91844254C700D306E /* ANSUIControlBinding.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DD3626A472026D929AF7C5C1070B1A40 /* HeatMapTemplateData.json in Resources */ = {isa = PBXBuildFile; fileRef = CCF0D4826373C5BF6ACCEC5E76FA1626 /* HeatMapTemplateData.json */; };
-		DEE206B5F7062B03A1E6ED3103FE092A /* ANSServerStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 313A07B1ADC139A89F37BF647B16DC6D /* ANSServerStrategy.m */; };
-		DF02E1EBF3078E6BB7A362F39C7EC3DD /* ANSEventBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F7706D8D8EBB756529B2ED61B647D /* ANSEventBinding.m */; };
-		DF65979691CBC0D554E795490A968AA0 /* ANSProtocolSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = CA117AEA14AF18EEA71E353443574FCB /* ANSProtocolSwizzler.m */; };
-		E067EC5F1DB9048B96BB05933A7AB0D7 /* ANSDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD8F5682E88383373A7C90C09277B9A /* ANSDateUtil.m */; };
-		E2F33CA30CCA14C24A784CDE9EF4E572 /* ANSKeyNameConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F481EBBA1C97ED60D259D46642AB5CD8 /* ANSKeyNameConst.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E4558DA810DA6A72964059D248848676 /* ANSBOOLToNSNumberValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E66D039090ED5CD55FC3FBEFA6F9F5AB /* ANSBOOLToNSNumberValueTransformer.m */; };
-		E541CC2F44C773B2A3486775698A764D /* ANSHeatMapAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D15FDA734F07CD3E7495DC101D79BA5 /* ANSHeatMapAutoTrack.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E64FCFC2808A8A96861D24753E2343C7 /* ANSPageAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = A03C915A820C754F9D922013436C3F9C /* ANSPageAutoTrack.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E681DA7EF0F049252550639F68FEACA1 /* ANSUITableViewBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = D80AFAF5F852236A90C9A823C320FAFF /* ANSUITableViewBinding.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E894C78DEFDB4E01206AFD5C519D682E /* ANSStrategyProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F038FF1FAE7908D380096196D5DC801 /* ANSStrategyProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E898169B858A0835A5FB89BF530CF507 /* ANSApplicationStateSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CE6D526FF0A21BB9E13660BD9AE3E /* ANSApplicationStateSerializer.m */; };
-		E8F169666B45B5AE030ECC3EBC061415 /* ANSTimeCheckManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A75F07CEB5747CFD8CF992A6769AB830 /* ANSTimeCheckManager.m */; };
-		E99F1FB1B7EC9497B384173FE2FA56F0 /* ANSDelayStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A6B3927913334EE707A583FC8482D3 /* ANSDelayStrategy.m */; };
-		EA24A6B87FD12434FBC0A048F7C86C1F /* ANSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 941B2870038308A0101B0AB5364BF773 /* ANSUtil.m */; };
-		F0887C5B237740F2407B4AEAE97AD2D7 /* ANSClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D44D08CD56FF2339732C58F89BCDCA /* ANSClassDescription.m */; };
-		F3307A6944353BB23263F86452809F6A /* ANSStrategyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 056CC68E7617000E6AC7169F03DD04CD /* ANSStrategyManager.m */; };
-		F448BEB4F348880CB4A961C86EAB1220 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4A69177394FFDDAA4C20914EEF2A3A /* SystemConfiguration.framework */; };
-		F4DF34C3081F69DB0899BE1F2D6C9894 /* ANSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA682FB6D6EA1854720E5D99AF5696 /* ANSWebSocket.m */; };
-		F5E9BC35CE4249C4F260D4E80614C585 /* NSString+ANSMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F8F0A22BA564C77E13F98E5A2943E6 /* NSString+ANSMD5.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F7777CE9AFA70B57CE618E66576A4536 /* AnalysysAgentConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C49E3AF203DAF98B42B0904417E798 /* AnalysysAgentConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7B39A6B67D0192886D1124905B44A13 /* ANSOpenURLAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = C375C6B45D09C420DFFFF8522B5B4D60 /* ANSOpenURLAutoTrack.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F7D1C516470DD5943722498DFCF0F81C /* UIView+ANSPathUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E9348A2980AF4C927EBF0D294A6D1902 /* UIView+ANSPathUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F960EB1FA5B924F8AE7F4DDB421050C6 /* ANSUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 253014C7F1AFE8A98CA09FB425A8973F /* ANSUncaughtExceptionHandler.m */; };
-		F98B9D422129CEBD63F95E7620BBC2A5 /* AnalysysPush.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF94EE7C7A5BDE02B6DB440D2F92E31 /* AnalysysPush.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FA0EB06BA69DA0C1695E1177FC16B3E3 /* ANSObjectSerializerContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD32E3396E94978C2F75C99AD69FE8F /* ANSObjectSerializerContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FB0C40FEAB2FA553841756EE5D22A572 /* ANSAppStartSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F8D9F134F539878D3768A52B119CFB /* ANSAppStartSource.m */; };
-		FBA759D6D91AF4FC319A9B8DE6B10C42 /* UIViewController+ANSSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 265C5F229F273E011CE19DFD4690826E /* UIViewController+ANSSwizzling.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FDCB4CAF9FC99BFC1B6FC33CA26C08BD /* ANSCGPointToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CA2188031460CFAEFA6F29D3C04B06 /* ANSCGPointToNSDictionaryValueTransformer.m */; };
-		FE01CB1941BF159911FFA143B0A6F8D3 /* AnalysysSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83401F749E66ECFD214A389DEAFC789F /* AnalysysSDK-dummy.m */; };
-		FE13AF656AD16C7299437C6E4741FF83 /* ANSSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AE86EF4874A512285D20CC653A2437 /* ANSSwizzler.m */; };
-		FEBCEE4788DE25CC7B1260D6003BC0C6 /* ANSABTestDesignerSnapshotResponseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8CC2ACEF23930E2C8CCC48F36066B /* ANSABTestDesignerSnapshotResponseMessage.m */; };
+		05332B7E5F66B30521A8C1D87DBD605C /* ANSHybrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F490DAEC37CA78BEC35007F778F3F /* ANSHybrid.m */; };
+		0555A2A0FC5349599D8BDEAA736351BE /* UIView+ANSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF6CC16315D7D520E7AD6ABCFA19A95 /* UIView+ANSHelper.m */; };
+		06E7CB1C6A41029D302AFBF6B7FA13AF /* ANSDesignerEventBindingResponseMesssage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDB9709825C2FB3BFF7DE07AAC2E78 /* ANSDesignerEventBindingResponseMesssage.m */; };
+		07376078C1B8B6DBA954079067CCFC18 /* ANSDataFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA167E72D8FFC5BC5202978474EA4FA /* ANSDataFunc.m */; };
+		07DDD487CCB4F271410DDC9A9F144B2F /* ANSDesignerSessionCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F09CF057E129EA3A5DE1B577BEB1AD /* ANSDesignerSessionCollection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0860BF6A5AB4FDE062FDAB50091C08A6 /* ANSAllBuryPointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B32A41AEA6D9DBB23FD14059B2633E40 /* ANSAllBuryPointModel.m */; };
+		094DB62196C509EA45E552FF744CF7A1 /* ANSLogParamsUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE7AA413440C94D5514DFD3080A5E93 /* ANSLogParamsUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09BCE3AD0668AA10ACDFB70C4357600F /* ANSDesignerEventBindingRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D118AB67471B52D00695FA68B787D84D /* ANSDesignerEventBindingRequestMessage.m */; };
+		0A628CC38E2E740BAD7962C35F9EA4A7 /* ANSDelayStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A6B3927913334EE707A583FC8482D3 /* ANSDelayStrategy.m */; };
+		0CD152726E100277B16ACD74716B2EF3 /* ANSModuleProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 453089476CF6B06F125AD0954171661B /* ANSModuleProcessing.m */; };
+		0D17ADD51FEBC41251043C21A23FA7D8 /* ANSControllerUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5362D1018C6602169A42CE0743D22B8E /* ANSControllerUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		104E8D778E4234212E66A2F6A5D60035 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8782270C64957C9D7ADF4635B1E14C9 /* CoreTelephony.framework */; };
+		106DFE6F4CA857FA87716467C753EA79 /* DefaultFieldRules.json in Resources */ = {isa = PBXBuildFile; fileRef = 2110BA50477F058F6110E297ECD3F7D5 /* DefaultFieldRules.json */; };
+		11EB14AFC22B1EFBDA67D22D148D2892 /* ANSProtocolSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = CA117AEA14AF18EEA71E353443574FCB /* ANSProtocolSwizzler.m */; };
+		13DC8FBBD8B419C84F74A5D538CF638E /* ANSABTestDesignerSnapshotRequestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E7C2E9811484B0ED87CF7C166F2294 /* ANSABTestDesignerSnapshotRequestMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13DD98F23F1226A883181F799CDFCF5B /* ANSClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D44D08CD56FF2339732C58F89BCDCA /* ANSClassDescription.m */; };
+		167262235E9D0EC67F79D163B59117A2 /* ANSAppStartSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F8D9F134F539878D3768A52B119CFB /* ANSAppStartSource.m */; };
+		169381E5B1A4587E60A73D4D1E23E2F7 /* ANSUploadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DBA741A28045951E3D614D450206604 /* ANSUploadManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1BF5F18BD745DD8AB18A5909857777EF /* ANSSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AE86EF4874A512285D20CC653A2437 /* ANSSwizzler.m */; };
+		1CB7EB1602E2191959A0B825C377ECCC /* ANSHeatMapFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCED58922A27300EDC00AD8EF8C0106 /* ANSHeatMapFunc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EFE54852A24E7D51ECE1CD8208A71DA /* ANSStrategyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 056CC68E7617000E6AC7169F03DD04CD /* ANSStrategyManager.m */; };
+		205C166CC5E5E6357A53A4A4DAC52450 /* ANSConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8BDFD65E5FA2AA1A62C6CC8D7E0B99 /* ANSConst.m */; };
+		2092F712A7A2631FA7E62DF0963B1B58 /* ANSTypeDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBE7E24A265FA5EAF4230CE62B3CF10 /* ANSTypeDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21CC3AA2A28D84B4A7FD1375928B18A2 /* ANSDataCheckRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A404CBB5F59D32B543931959029A341 /* ANSDataCheckRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22DCC97D0804C597C05FC37639175412 /* ANSUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E91F0F834BE2E910DC9A2D67A3FF8094 /* ANSUploadManager.m */; };
+		245CD5F6FE75C3C23F12D0A33B3F004F /* ANSEnumDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1E625E9037D0D84611A7AB901F140D /* ANSEnumDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		246520D0320C8AC584712D8CF5C6C44F /* ANSConst+private.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B29E88FD37A775137136403E5C1C73 /* ANSConst+private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2501346401100AB23D153ADCC88B178A /* ANSObjectSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 615A7E3F003F10AC5E23E26C7823EC65 /* ANSObjectSerializer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		263D2D8379D00BB109805BF2CCDC4936 /* ANSABTestDesignerDeviceInfoRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 805CFEC8026706A5D356CDBCCB8E6B2A /* ANSABTestDesignerDeviceInfoRequestMessage.m */; };
+		284F74C534CA8329263A0B0E9B793EB4 /* ANSABTestDesignerSnapshotResponseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3D8C64342770CC8CA497D57DBF1E88 /* ANSABTestDesignerSnapshotResponseMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2869E4EE8E383DE5649EAA526FD53917 /* ANSObjectSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = B808A5DAEEA091B6DD765D854FD03C64 /* ANSObjectSelector.m */; };
+		29C41E4BCE3C61722B3401418D036E55 /* ANSReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0644D05393A5DFF6DF6CD83A88FF2EDA /* ANSReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B28B7C0B9431C9CAC6C6FDC3B8E92EF /* ANSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B362211AEEB7E8780D8E773490AE80C /* ANSFileManager.m */; };
+		2F6E0A2CEBE75B6E34DC364C89614B33 /* ANSUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 253014C7F1AFE8A98CA09FB425A8973F /* ANSUncaughtExceptionHandler.m */; };
+		2FA00E6222D224919E819FBAD5170852 /* HeatMapTemplateData.json in Resources */ = {isa = PBXBuildFile; fileRef = CCF0D4826373C5BF6ACCEC5E76FA1626 /* HeatMapTemplateData.json */; };
+		30089BD40FB3C583EAAF566A238229E7 /* ANSModuleProcessing.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F742CDEFC27E0D4B5BCC3391CFF6C /* ANSModuleProcessing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30A971D025E89828E7EA31C3B5830C5C /* NSObject+ANSSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA40CA1CC9652DAD44B4CBB66100EE /* NSObject+ANSSwizzling.m */; };
+		3172475FA918660FCA777E5CBE69A260 /* ANSObjectIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B631421BA132E4A59093A44166D2A3A /* ANSObjectIdentityProvider.m */; };
+		3222D92B3EF22D50EBB01FB32878DE12 /* ANSClassDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CBC59BC3A1748E09DAEB97C6847530C /* ANSClassDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3367C4B70BB22E57DF53AFB5138342C9 /* ANSModuleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CB57CF18BBBEEA32472B0DEEE32C5BD3 /* ANSModuleConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33825ACD8CE2D921E1CADF9CBAEBABF5 /* ANSAutoTrackCellProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = E889CD6AC468985B42AFA97CA426BA7F /* ANSAutoTrackCellProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34FBDD25410092FD4854B3B45C44E548 /* ANSObjectSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C9DB8DC4372E1760C5D20751D551C7 /* ANSObjectSelector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35B3DEC9A62038B215DA379E185B6AC5 /* NSString+ANSDBEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFE824C3B27E4B3948BA7D4D4F20789 /* NSString+ANSDBEncrypt.m */; };
+		35EF53FD0DDDAA0BF395BE015FDD99D8 /* AnalysysAgentConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C49E3AF203DAF98B42B0904417E798 /* AnalysysAgentConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36D232D1915E3ED614EEBE0780BF80E8 /* NSString+ANSMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F8F0A22BA564C77E13F98E5A2943E6 /* NSString+ANSMD5.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37DD2639DA5CFB79DEB3C4B535C248B0 /* ANSControllerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D38F8C10404307BEA33A63577CDA74 /* ANSControllerUtils.m */; };
+		3852E0F2053033219FB8E11C4120F373 /* ANSObjectSerializerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 482FF19089FD69531049595ED25A0772 /* ANSObjectSerializerConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38C25049FC74838BA523C358FC9E832B /* UIViewController+ANSSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = DC55AFE3C8E2F997295DC8DF14925C6D /* UIViewController+ANSSwizzling.m */; };
+		3A1A16044C517EC3700F0AC39B614278 /* ANSUITableViewBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = D80AFAF5F852236A90C9A823C320FAFF /* ANSUITableViewBinding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3CF100FA23EAD0D769BF0B78399870D9 /* ANSAESAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE2FE18640CAED532DEDEA14BF4155 /* ANSAESAlgorithm.m */; };
+		3EBCBFAB9ED58FBD8D05A2F4075ABF08 /* ANSObjectSerializerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E2183824E41818CDFC725718043200E4 /* ANSObjectSerializerConfig.m */; };
+		43CE75B8E79DC54DDCDB0152FE6C4E0D /* DefaultTemplateData.json in Resources */ = {isa = PBXBuildFile; fileRef = DDE6DF6A5CFB76B7C7ED45CCFA0EB837 /* DefaultTemplateData.json */; };
+		456695483D785EEA4AFE6D69291D1BFD /* ANSEnumDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 606AE5D72384442E767BC918DC6C791B /* ANSEnumDescription.m */; };
+		476563CFB3236B673F8D4391CC900E31 /* ANSDefaultStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B4B2B47B16E7E9673E9BFA3BC15D5E /* ANSDefaultStrategy.m */; };
+		4C2D202B4D27C0272AAA8971531BA0B7 /* ANSKeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFD8D30C77CA952E4BE71CC0D2F344F /* ANSKeychainItemWrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C8D649D73619A90AB7DD8D283BD3E65 /* ANSAbstractABTestDesignerMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9BF1C0FA637DC1FE098B0245CC097B /* ANSAbstractABTestDesignerMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4DB23B0AC52FE22842487144078C0C79 /* ANSDataProcessing.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E76786501834C42844C554F4C54FF66 /* ANSDataProcessing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4DDD7F27CC4A7B1B98D2B0B9A12C90A9 /* UIView+ANSAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C58E835EEFDE315516E701A1750E0 /* UIView+ANSAutoTrack.m */; };
+		4E90048CA4955AB17927DA78901D4D5A /* UIView+ANSPathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A616811C112A0537C375AF8B5570DE /* UIView+ANSPathUtils.m */; };
+		4F618FE1B8E5A8FF5B7B7591AAC83716 /* ANSApplicationStateSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CE6D526FF0A21BB9E13660BD9AE3E /* ANSApplicationStateSerializer.m */; };
+		516E03EDC4268A2ECECD1F70C6E84AD5 /* ANSAppStartSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5054E0B40E4808658190981B1A160745 /* ANSAppStartSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51AE26C02A94D2AF52ADF016ED64EB05 /* ANSMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = CB65BB4AB915231FB913A81ECF9846D3 /* ANSMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52015477E34DA7D176FDF6A2336D9E1E /* ANSSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDD196C5F2376086625C6F781EA122C /* ANSSwizzler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53CD8130EE8C8B3ED41DBF502467482C /* NSString+ANSMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA76F59A531D9467FBE85DD5E946723 /* NSString+ANSMD5.m */; };
+		53E225A3BAB1C1E2E58F3F8306193F47 /* ANSUserStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 025A15BD9F64C8D20269C292902C2AA9 /* ANSUserStrategy.m */; };
+		557ACC6F3B7ABEFC583B003D14644522 /* ANSServerStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 30427A1CDDFFE05CFD45475583BFCF6B /* ANSServerStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		564EC40AF024A69F3FF8132EBB80F419 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D939818DD261CFC52DE796E1449C8B54 /* WebKit.framework */; };
+		57AA2A52FEB9147B81343D8E8B047D43 /* ANSCGAffineTransformToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C4E73F7DD33317D2E871434F3E376E /* ANSCGAffineTransformToNSDictionaryValueTransformer.m */; };
+		582CC2BF85FAB7C5068ECC658053B2B9 /* ANSDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3928A0D33131F2911B052128E783E98F /* ANSDateUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5890D431FC78A7DFA2C885084A1F14B3 /* ANSQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F4488F78C482FA2B48C4ABE826DFF370 /* ANSQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58C3A431BDFDA7EECE8DDBB4E3D9526F /* ANSUITableViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = F2987817E23ACDB6D3C8EAEF91B2A227 /* ANSUITableViewBinding.m */; };
+		5AEA68F37E255619C35F50AB6C3F73FB /* ANSUIEdgeInsetsToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD16EDFDDE326477191B78FA3F2280BC /* ANSUIEdgeInsetsToNSDictionaryValueTransformer.m */; };
+		5B62D306310E7EA51FD958484C741B3B /* ANSHeatMapAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D15FDA734F07CD3E7495DC101D79BA5 /* ANSHeatMapAutoTrack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D550483A74DDE6888CB24A7FFBC663D /* ANSObjectSerializerContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2012C0FF936968B80A574380AD1358B2 /* ANSObjectSerializerContext.m */; };
+		5D74D9D934E5DD909483A361372C1454 /* ANSCGColorRefToNSStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A869D70B8C5E91086ADB7FEE8DD00C71 /* ANSCGColorRefToNSStringValueTransformer.m */; };
+		5E09EE422844F3FCF64645DF0A0B58AF /* ANSEncryptUtis.h in Headers */ = {isa = PBXBuildFile; fileRef = 660BEA3164E0C8DEAEEEE906195C527C /* ANSEncryptUtis.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		600DEB7D22D4CC1CB11CD5A40646EEDE /* ANSCGSizeToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0A8731A80FAEC6CD9AF1CB1DB5AC8A /* ANSCGSizeToNSDictionaryValueTransformer.m */; };
+		616300C7D4416890249019655A25972E /* ANSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DED0BAFBE66BEA83DC3997DA83FF0C8D /* ANSReachability.m */; };
+		616840F2F44F272A7FD1EB07049AC866 /* UIViewController+ANSSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 265C5F229F273E011CE19DFD4690826E /* UIViewController+ANSSwizzling.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		658623E4880A370A972D46A1483257C7 /* ANSAESAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 304F1680DFC2387E508FCAEBF34D5422 /* ANSAESAlgorithm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A75681F938C6E8B227FC65044ECBC97 /* ANSAllBuryPointModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F8FAF1398EF855C440E84F258FD8F1 /* ANSAllBuryPointModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B758FD628A447F217697B2381D25D25 /* ANSUIControlBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC72AB7B1D783E91844254C700D306E /* ANSUIControlBinding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C417BE08DE4F2A3EB85B5DF1633DDA6 /* ANSHeatMapAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1573F4662493CF7708F583037257B0 /* ANSHeatMapAutoTrack.m */; };
+		6F9F93CCD85DFE080827E79CFAB1EE96 /* ANSPageAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D97BDD0CD1C7B4F77C2D21C46CAEB86 /* ANSPageAutoTrack.m */; };
+		71038545B05B0A8A03E7E8D451478811 /* UIView+ANSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E4831B78140E3765E92473416D623415 /* UIView+ANSHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		748776B6BBCBDC7F528E76C34D5DCAAC /* ANSEncryptUtis.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D344E08FEB52DFA2F4E217E96D8B73 /* ANSEncryptUtis.m */; };
+		749AE9D90824F3F5C65BD4A0F667DED3 /* AnalysysAgent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0DAFCC263B176A13C8340A9734A17C6B /* AnalysysAgent.bundle */; };
+		76B166753A39B3361DD40BD070EDA0EE /* ANSDelayStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC6D6AE254EB6707EE1D69DDCD126BF /* ANSDelayStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76FD094FE6FA2909E97509969DDBB31B /* AnalysysAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 396849704742CD7E0053DC170DF0061C /* AnalysysAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7853D9C39E51D7B529BABF0A99DB7D3E /* ANSLogParamsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B7F166C817923ECD190F8C18432B97 /* ANSLogParamsUtil.m */; };
+		798817ACA0421025286D9146B57E61BE /* ANSABTestDesignerSnapshotResponseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8CC2ACEF23930E2C8CCC48F36066B /* ANSABTestDesignerSnapshotResponseMessage.m */; };
+		79C9B41233A07529F98EAF70CEB84CD6 /* ANSTimeCheckManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A75F07CEB5747CFD8CF992A6769AB830 /* ANSTimeCheckManager.m */; };
+		7C8577732993D82258E5108255194551 /* AnalysysVisual.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CA19EFE55DFBC5551DCE206B695C75 /* AnalysysVisual.m */; };
+		7FC436733E93997AEF8F3BD9F40532D8 /* ANSPageAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = A03C915A820C754F9D922013436C3F9C /* ANSPageAutoTrack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		806A12F34F4127CE0E730832F3BD060B /* ANSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F751D7F1BD472880F8A20A76650BF72C /* ANSQueue.m */; };
+		80BF432C08B8B1A7374EA581EF8D1D2B /* AnalysysSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 202344A4AE480A850E7CEF40BFB0A85D /* AnalysysSDK.m */; };
+		80D532005678C6AC798C019CDCDD7123 /* NSObject+ANSSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA0AD0BC7885FFEB1E2449669203C45 /* NSObject+ANSSwizzling.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81A581DC390E328BECC71FDB76B68864 /* ANSUncaughtExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E58776923D28CE33A316E12180FF4E /* ANSUncaughtExceptionHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83176754BA2FCDB0A0761A4B2BDEEC09 /* ANSABTestDesignerDeviceInfoResponseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F860E62B352CF4CA425DE6F0240AC4 /* ANSABTestDesignerDeviceInfoResponseMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		846E6F4CAC48CAF282691AC48CE82404 /* ANSValueTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = CE16D1941F2E7BFBBDCE1CEE7AE0A1AA /* ANSValueTransformers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		855F044F2759F673E3FED051FD884236 /* ANSModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C59DD74167E51934B5866BEAE89780BB /* ANSModuleConfig.m */; };
+		870DE7C3E854172F025A654EAED68FD8 /* ANSDataCheckLog.h in Headers */ = {isa = PBXBuildFile; fileRef = EC343B6880AE320886905E0BFCCC7E89 /* ANSDataCheckLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87938EB312A37E4D71D96500A4775821 /* AnalysysSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83401F749E66ECFD214A389DEAFC789F /* AnalysysSDK-dummy.m */; };
+		87F1D88BA107C08D186B30806B0652A4 /* ANSDataCheckRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A437ADBE461B3D92E7C956075153B3 /* ANSDataCheckRouter.m */; };
+		88803CB4190F197C1BCE65D49CB46517 /* ANSCGPointToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CA2188031460CFAEFA6F29D3C04B06 /* ANSCGPointToNSDictionaryValueTransformer.m */; };
+		89067D144DF73220AEEB32600FD4373C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BE463D78C86BB8CA2512F7A2E5BFE4 /* UIKit.framework */; };
+		89330A50B5FCE5B1AF8685E6AD46D7A3 /* ANSStrategyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F3F96ABDB665DEABAC2EE9AAEF514F /* ANSStrategyManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BCFFD610EE461B56C39EF3A0003C90D /* NSThread+ANSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34100E6EA8B9B1B37476B18081FD78E6 /* NSThread+ANSHelper.m */; };
+		8CB1B8D558D77F43E5FBF45858FD4264 /* ANSCGRectToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D0E11EB99DFC697E3860AD0D15CEC /* ANSCGRectToNSDictionaryValueTransformer.m */; };
+		8CEC9687AAD00BEAE32D435208D31C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C45AD84BFDDAD7D3F613513D54E43B /* Foundation.framework */; };
+		8D7B2910DDA57689E9FD52FF16320988 /* ANSUserStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DECF56FECC43C8670C875BFD238D9F /* ANSUserStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E25B6BC9FB8C194029716F0F72844FD /* ANSDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FC64A37F946E6D0F96787E7500C94391 /* ANSDeviceInfo.m */; };
+		906467021517D88D355E95BDD643EF50 /* ANSDataEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C64195C7EA6B4497FA0671DF686332A7 /* ANSDataEncrypt.m */; };
+		91BACF432FCEF2858EE7CBA5DF58BBB2 /* ANSDataConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F2091011728C87BBD381F45B57E28DD2 /* ANSDataConfig.m */; };
+		91EB2D78E7C907B4233DFD246BF33667 /* ANSDataCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 706C862F331BD0BA7BC9EBA4CED3500E /* ANSDataCheck.m */; };
+		93691ADACC0DD425981F7790EF4FD11B /* ANSSequenceGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 11AA3A3E11F70355788A6C69C0EF18B7 /* ANSSequenceGenerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94D149C8817D6672E9FDDC7587ECD41B /* ANSAbstractABTestDesignerMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1772C88C79B5DCD24EC3C8C43BEC03 /* ANSAbstractABTestDesignerMessage.m */; };
+		9592EDBC04B83E9B0EC261E3EB39D69E /* ANSServerStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 313A07B1ADC139A89F37BF647B16DC6D /* ANSServerStrategy.m */; };
+		95D93604C1F43DFB53C60453F2E66C3A /* AnalysysVisual.h in Headers */ = {isa = PBXBuildFile; fileRef = 27292FD40BDD68C2B0A54BC096518249 /* AnalysysVisual.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96FAE064C83D01EA29E2BDC7D7D80762 /* NSInvocation+ANSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 51182B6A2C3E70231B255020866ADD94 /* NSInvocation+ANSHelper.m */; };
+		97A31281842BD8C9A4DC145EBDEBC7B0 /* ANSTypeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B49A5D99D7D8601D03CAC3A393D54 /* ANSTypeDescription.m */; };
+		988D49C706304947D7F5B7732F80F7D4 /* ANSGzip.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FADAE3517F7365820AF25806C0D2C40 /* ANSGzip.m */; };
+		99B9240CFFC181569C1FBFB055CC07BF /* ANSUIControlBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F79550B50A0368168FCC1891BDC2353 /* ANSUIControlBinding.m */; };
+		9A77E7112C41CD7E4A47D2559C78CCE5 /* ANSHeatMapFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 16666275343474A01FF09B7C2CA62D88 /* ANSHeatMapFunc.m */; };
+		9D19F29193A58995CD2E74132949DB0B /* ANSTelephonyNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BBC6877573A340480DA792CEB917D5 /* ANSTelephonyNetwork.m */; };
+		9D23B35B3253CFDB52D1C2B8DE43F8DD /* ANSOpenURLAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B97CCC50BD20352305CE07506E0B20 /* ANSOpenURLAutoTrack.m */; };
+		9DB31F4B07AFD68BE4440DE0402BD1B0 /* AnalysysPush.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF94EE7C7A5BDE02B6DB440D2F92E31 /* AnalysysPush.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E6B5E3A3A44AEB4D9F529F5DAAF199E /* ANSABTestDesignerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8138C250DFDFA2DE467C68DAC453EDFA /* ANSABTestDesignerConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E84B58D0FA8A241213D499917E879B1 /* ANSUIFontToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B8902CA9E82416D80BEE82FFBA485D74 /* ANSUIFontToNSDictionaryValueTransformer.m */; };
+		9E9224E770E47CB32BC1ED1CB7774B58 /* ANSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA682FB6D6EA1854720E5D99AF5696 /* ANSWebSocket.m */; };
+		9ED214D3DA083C14438D9FAFD27BD8FF /* ANSSequenceGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 123E71DE2C7417A1FA4F54D1CAC898EA /* ANSSequenceGenerator.m */; };
+		9F4477BD66F2E1DBCCF1E27CCEA68A4C /* ANSPropertyDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 308DC062C1E01AE1E6FD9A10B51B3DCA /* ANSPropertyDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F80FFE73D70D089650DBB39D4C1B2F9 /* ANSCATransform3DToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C821E194D1226488F9D2188E447CDFE /* ANSCATransform3DToNSDictionaryValueTransformer.m */; };
+		9FD9072ADC6EC09DA4F318B4787C2EB7 /* ANSDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A23979B2416404CB7366D2DBCE7B674 /* ANSDeviceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A03B10199E3636ADBBD37A9FAFD6FEC2 /* UIView+ANSAllBuryIdentifer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD454CC480D5580FD70E0A47A37DBDA /* UIView+ANSAllBuryIdentifer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A11F36C3A10916E00047D8EB56716912 /* ANSJsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A42CD9705D312A48786E8225E4AD40D7 /* ANSJsonUtil.m */; };
+		A34A588F3F1C8B0F498FA20CC86ED04F /* AnalysysAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE62DD7ADC6B50C702E071E9E2DFF60 /* AnalysysAgent.m */; };
+		A3A1834247E74713E4DBC3168B179555 /* ANSMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1291EC9D7DC509EA9FBE00F0268086A2 /* ANSMediator.m */; };
+		A52EB0F7F4BA6420730CAF3319D84AE8 /* ANSDataEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCA03ACFFE5C363C61E4B58589F2503 /* ANSDataEncrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A58C74EDD20A527C7017471A0141284A /* ANSPropertyDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 0887C56EDDD3CFC159CE4216CD3DE534 /* ANSPropertyDescription.m */; };
+		A7A419354D14D7A2535EC56825DE5931 /* ANSBOOLToNSNumberValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E66D039090ED5CD55FC3FBEFA6F9F5AB /* ANSBOOLToNSNumberValueTransformer.m */; };
+		A9D9A68BAEC424D43E5EF6B5E5797841 /* NSString+ANSDBEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD10A7EBEF2B51ADCC1AE4741946389 /* NSString+ANSDBEncrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AAD47BF68BC0CA4CB8ABBC92A8CBDA1A /* ANSWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = FE69130A0622D51710A3A45F55A97606 /* ANSWebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB0CB78ADEBFF56C6A48CEBBC3D8B73D /* ANSVisualSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F3D9FDD01C96B684AD7D1AA16B9196 /* ANSVisualSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB0F381E84E045B0991DE39B7AA5E7D9 /* ANSStrategyProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F038FF1FAE7908D380096196D5DC801 /* ANSStrategyProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC75FAAC98FCD64F619D18109348D951 /* ANSObjectIdentityProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = BC20ADA5A45CEFC16596FB82D8376D94 /* ANSObjectIdentityProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC89B821F327C09E60971A626E0ADAAB /* ANSKeyNameConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A33933B9D7735D6690A3EC9E91C1BC /* ANSKeyNameConst.m */; };
+		AE093869A91F126CF039CBD74CC69944 /* ANSDataConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6D7B33E2BC2E6A34436F8C559D16A5 /* ANSDataConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B455CDDEDDA64DBC4CD09C8AC36AE4D4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74C56D99E22206BC891FD2DD6F8064F /* SystemConfiguration.framework */; };
+		B52BA1CC2454A7FA84D6ECD9EEBF145E /* ANSUIColorToNSStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E40917AE5A17419CD563F57EE9B9C /* ANSUIColorToNSStringValueTransformer.m */; };
+		B666505E38E33FAABE163187F1FDD61D /* ANSBundleUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F639FB344E338362D67B6DEF6834F8 /* ANSBundleUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6B6200A935ACE3E0ED152795052A2CA /* ANSDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB875077A037378D3714AC57B1F6528 /* ANSDatabase.m */; };
+		B819459F98C86FB5CEED54C0D10185A6 /* ANSABTestDesignerMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4F39CCFBD2111278018A8DD9316A31 /* ANSABTestDesignerMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B81F0BA88DE7CDE5AA35BE6D829A660A /* ANSDesignerTrackMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F8B4FF9731797A8BE8E0BE65292A5 /* ANSDesignerTrackMessage.m */; };
+		B9176193EC1BD2D1B772B4D11526BA87 /* ANSPassThroughValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25122EA03BB25BCB2C922BFFE20B1613 /* ANSPassThroughValueTransformer.m */; };
+		BBC021D551378939414A0BD5302D24E4 /* ANSVisualSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B224196B4C4576576DAF792A6B83F9B /* ANSVisualSDK.m */; };
+		BBFCBF51C38CD0A6E78C23727C630357 /* AnalysysLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 55683B4CCB1C3AD7352040FEA8E75B65 /* AnalysysLogger.m */; };
+		BD283648103F5DDF88FE4DB381D14E48 /* HeatMapFieldRules.json in Resources */ = {isa = PBXBuildFile; fileRef = 8592284529FB0E9082AEF836CCBA35F6 /* HeatMapFieldRules.json */; };
+		BD2B86ECBEDF2BA26E48C433A725F171 /* ANSBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A0CB2F40D1396A70B064B182CB5CEC /* ANSBaseModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD3F04CE136A9A85D60C92CB740BC83C /* UIView+ANSPathUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E9348A2980AF4C927EBF0D294A6D1902 /* UIView+ANSPathUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD85CB2DA71246C4938E6A7274FA86AB /* ANSHybrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E60A4A8E1929BE8E8FD95E624CA5805 /* ANSHybrid.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C18FDF732CBF515AECDCE5A6D55689CD /* ANSNSAttributedStringToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EBB5EC6DE058DF7C379D1F534D5CD /* ANSNSAttributedStringToNSDictionaryValueTransformer.m */; };
+		C1ED574FA90ECA1A1D4244382AA7B693 /* ANSObjectSerializerContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD32E3396E94978C2F75C99AD69FE8F /* ANSObjectSerializerContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4E0A17CC466E42D4E29DEFCD72B353E /* UIView+ANSAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB0CA014CB1C16A50DF5CC4F0DFD789 /* UIView+ANSAutoTrack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C60F3C9803E967F26C0D7E541AE529E0 /* ANSAllBuryPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A9354405F23C7D75A6DC265F8F407F96 /* ANSAllBuryPoint.m */; };
+		C671C3B24CAAA3D792BE17CE7B872EE0 /* ANSSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B279B5722C6DDFCF7FDFC0D699AF31CC /* ANSSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB069732AE00230DA6DD0E0D7CB19634 /* ANSAllBuryIdentiferProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D060CB17BD5A1C86B0C290AC37222998 /* ANSAllBuryIdentiferProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBEAFC208D52E1CDF9304046193DD618 /* ANSABTestDesignerSnapshotRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E326073AC813D11D0E438350C829D3 /* ANSABTestDesignerSnapshotRequestMessage.m */; };
+		CD43CD72D0346A64B033FBC3C41CCBED /* ANSSwizzlerNoConflict.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C06A2AA3692A06A56DD753898521ADD /* ANSSwizzlerNoConflict.m */; };
+		CD6BFE7D8DA650E35FBDF886523795FD /* ANSABTestDesignerDeviceInfoRequestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = FB5BFF9B66CA65A0A7250143AF1919FF /* ANSABTestDesignerDeviceInfoRequestMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CEA7F733055ECB1AB93DA85F6DE2AC5D /* ANSProtocolSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 420CB8717AB398E8F0DCE6EDD576C67D /* ANSProtocolSwizzler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D10C5E58C931228DBC8886D252AEFBCD /* ANSDataCheckLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4672DC1063650463C63B26731E1AA6 /* ANSDataCheckLog.m */; };
+		D2225FC71869827B3C2522100FB6F226 /* DefaultLifeCycleConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 640EEF7D7535A01B8A135276108D7BF4 /* DefaultLifeCycleConfig.json */; };
+		D409FD74ED86144E01964323C07236D0 /* AnalysysSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F980CF7AD69171263F0FA0308ACE9B /* AnalysysSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D453387F2B1C2D6EB3E96E054748FE06 /* ANSAutoTrackProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB28E923AD6994FE68F6BEAECEF8721 /* ANSAutoTrackProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D704B5086527113F4DEB4F7F3700B6B1 /* AnalysysLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3167A55B33A63002E911E371C9E69F /* AnalysysLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D81592A35A4117F9B1CD3B71BD8EB60F /* ANSDataCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E295C37FC47C30C3981EB56DF8C122A /* ANSDataCheck.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9FEDA41EC037F940C2C61C52437A7C8 /* Pods-AnalysysSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F989FE9DC7FCD84BA2E2B09F936BF48 /* Pods-AnalysysSDK_Example-dummy.m */; };
+		DA110BA3012AA7BF0E99054A1D1F9D09 /* ANSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF52B2EF1E1B903D7CBAB7393694F22 /* ANSUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB2A6193493EB98A69188E44ECACC4C6 /* ANSLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C136619252E99AB16BA27CA9913BDB /* ANSLock.m */; };
+		DE0EDBDFBDD26E63C98AFCB01926B4E3 /* UIView+ANSAllBuryIdentifer.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F224F34CC5EEB88FC4A4C2A632564 /* UIView+ANSAllBuryIdentifer.m */; };
+		DEAAF412451AFC3BAE01B64E5B6D0A53 /* AnalysysAgentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F57F24920FB8570173A624E96688EE /* AnalysysAgentConfig.m */; };
+		DF8393FF308297E2EA1333B647613C44 /* ANSKeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F7AE0DB029162CC7A083DDFD63336 /* ANSKeychainItemWrapper.m */; };
+		E43BE040D827E4A48803E93FF9ED03E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C45AD84BFDDAD7D3F613513D54E43B /* Foundation.framework */; };
+		E48CE57C176BEF2377070EEEC197C3F7 /* NSInvocation+ANSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D3070377F6CDCDAB094A29BEFB76D5 /* NSInvocation+ANSHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4B35EE10317C87FC9B75386E98F827D /* ANSNSNumberToCGFloatValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB39840D891375F214A150C0CC522C /* ANSNSNumberToCGFloatValueTransformer.m */; };
+		E6DA0F0338062E5FA614D41BC2DC3F7D /* ANSGzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C6726A3188EA6A106ECEE5A609B561 /* ANSGzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E82791211AD44EA5BAE966EE1BA29530 /* ANSDesignerEventBindingMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 36890628DDA54B8D3DF34A72EC2504B2 /* ANSDesignerEventBindingMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E850EE3E822210923721D28B70273B7D /* ANSOpenURLAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = C375C6B45D09C420DFFFF8522B5B4D60 /* ANSOpenURLAutoTrack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E88071AA8D17751A04545EA8DEE3FE29 /* ANSConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E529BC358562899E944B59C320B076C /* ANSConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E970C02413C1CE47DE43735EE52F5071 /* ANSTimeCheckManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4387097724609DB59A43A368373E7E /* ANSTimeCheckManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA0B4B1ABD9FB0B26CF011C055B0B051 /* ANSObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B5F984B4B5AFD9160CD29C61F0A8A /* ANSObjectSerializer.m */; };
+		EA9574C03134F179C8FAF32EAA0BDEF7 /* ANSFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B751FDBA3B04ADC28465075DBC2C6E /* ANSFileManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAFEABC133E990F629F1F0F424AB7372 /* AnalysysSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8197D53FE2052865A859C0CD6920D76 /* AnalysysSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB53B51F014D2A16AF1299E7D57A037C /* ANSDataProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8413AA344C4C1CF16B0EA15BB5376F /* ANSDataProcessing.m */; };
+		EB8E464398B39BE7D00EB886406B09AE /* ANSBundleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D4A43B1EAA0C8AD4933257DC885D68 /* ANSBundleUtil.m */; };
+		EBCA2708345ADFB28795FD7344B4654A /* ANSJsonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 80438BC23B069741432722B82E6813E9 /* ANSJsonUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EEE49BCED9A990400FD66A7A12652726 /* ANSKeyNameConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F481EBBA1C97ED60D259D46642AB5CD8 /* ANSKeyNameConst.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF4A53936AD51F278FB5D25C6D81E61A /* ANSDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB5ADFD6DE3F5B27CDBF08DD5FB1D41 /* ANSDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1B8E538D4B8785DFF988197BF2A8791 /* ANSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 941B2870038308A0101B0AB5364BF773 /* ANSUtil.m */; };
+		F23E24C650E5DBD9D443663417542C9D /* Pods-AnalysysSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DEAD627D4FE7A04D47765D617B0C127 /* Pods-AnalysysSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B19023D583F7DD61991275110CAA5B /* ANSDefaultStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 877F1047CF5145354BE05451A5DE2358 /* ANSDefaultStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4908A1935D2260BC9538FEBC664D1CD /* ANSABTestDesignerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC19F1931A1AB7EAD88764737A0E059 /* ANSABTestDesignerConnection.m */; };
+		F4D99E85AF3EA69E1CDFB22F66C380B7 /* ANSApplicationStateSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC31C99A78908CB965C12C58EA779E2 /* ANSApplicationStateSerializer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4F658527055D8EDFCB6D246948861B6 /* ANSSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A906F984596D6E61904518861D533F /* ANSSession.m */; };
+		F5348DAE4846846DE92FA203C1504478 /* AnalysysAgent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36A9BAC717000087A4847571CCC97044 /* AnalysysAgent.bundle */; };
+		F6250F81E699C3F66A3526D3EDB352C2 /* AnalysysPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 67929D806D1C1D0CB734986326C49D24 /* AnalysysPush.m */; };
+		F75F6CB61ED5B692FFBBE0ADECAE43BE /* ANSEventBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA71D89156E4A9E118630D1283855D2 /* ANSEventBinding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8B7018C1E1213100AE8698D6AC4EA0E /* ANSLock.h in Headers */ = {isa = PBXBuildFile; fileRef = DEEC75FED8E76232C69ADEB5A689A0F9 /* ANSLock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8BACE5B7914B63D70852310FB632800 /* ANSEventBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F7706D8D8EBB756529B2ED61B647D /* ANSEventBinding.m */; };
+		F9E08FE3B04712C33E2A9374E0914303 /* ANSUIImageToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B4BF679532B06B52462A73F2541439 /* ANSUIImageToNSDictionaryValueTransformer.m */; };
+		F9EDA47CF2C284251023710021C39BD8 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1302B592BB406D5F1853E7251541B85 /* AdSupport.framework */; };
+		FAD88ED3F7A3BF3A4BA6A109FE06DE24 /* ANSABTestDesignerDeviceInfoResponseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C86F5FAC961F22864F0EDA66FDF57937 /* ANSABTestDesignerDeviceInfoResponseMessage.m */; };
+		FB2EC6C059E48453E2ACA285C7648D45 /* ANSAllBuryPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6E7655B77D96DC79F659113263957C /* ANSAllBuryPoint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCB6F13876261ED9691F6DF1764BBBEA /* ANSDataFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = A946B66D8689D74C92FF6CE3E22654E1 /* ANSDataFunc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD51E95D9F33D4A2D3FC2C6E1B611D79 /* ANSDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD8F5682E88383373A7C90C09277B9A /* ANSDateUtil.m */; };
+		FD98F1586FBCB07D2C9FB9C683FFF575 /* ANSBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA08FAFD8EB57957503F390980785C /* ANSBaseModel.m */; };
+		FF8BB7234E6442FA0A0F8B252038E3C0 /* ANSTelephonyNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D4DAC3F7BCB484DA641B0E184E33F1 /* ANSTelephonyNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFE54D2A0DA183B7558E7C1A1259B682 /* NSThread+ANSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5EF483A9D3BF3E7B7CCC66F88ED18B /* NSThread+ANSHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		268657486B2A2AD54A6C5C589904CEE0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 547D8EEE54833054DDDD9EE780146750;
-			remoteInfo = "AnalysysSDK-AnalysysAgent";
-		};
-		296E6EFCAF99E17C3E54B8B1B569D741 /* PBXContainerItemProxy */ = {
+		1B259A9D728879D6B8E6DED1F55DB4D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 27AC48BC542282E5ECA00A27D0AB65BD;
 			remoteInfo = AnalysysSDK;
+		};
+		8BBC401D79B5253F511A629C4AB54419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547D8EEE54833054DDDD9EE780146750;
+			remoteInfo = "AnalysysSDK-AnalysysAgent";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -320,7 +321,6 @@
 		47D38F8C10404307BEA33A63577CDA74 /* ANSControllerUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSControllerUtils.m; sourceTree = "<group>"; };
 		47F639FB344E338362D67B6DEF6834F8 /* ANSBundleUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSBundleUtil.h; sourceTree = "<group>"; };
 		482FF19089FD69531049595ED25A0772 /* ANSObjectSerializerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSObjectSerializerConfig.h; sourceTree = "<group>"; };
-		48E28CD5459D2E0E75D5F32E09E4A9A1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 		4C4672DC1063650463C63B26731E1AA6 /* ANSDataCheckLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSDataCheckLog.m; sourceTree = "<group>"; };
 		4C4964AC016CE76641E19C463DA0F32A /* AnalysysSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnalysysSDK.release.xcconfig; sourceTree = "<group>"; };
 		4D15FDA734F07CD3E7495DC101D79BA5 /* ANSHeatMapAutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSHeatMapAutoTrack.h; sourceTree = "<group>"; };
@@ -339,7 +339,6 @@
 		578F6EBBBE2643C633FC00176EC84721 /* AnalysysSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnalysysSDK.modulemap; sourceTree = "<group>"; };
 		5A1E625E9037D0D84611A7AB901F140D /* ANSEnumDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSEnumDescription.h; sourceTree = "<group>"; };
 		5ADDB9709825C2FB3BFF7DE07AAC2E78 /* ANSDesignerEventBindingResponseMesssage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSDesignerEventBindingResponseMesssage.m; sourceTree = "<group>"; };
-		5B4A69177394FFDDAA4C20914EEF2A3A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		5B6F8B4FF9731797A8BE8E0BE65292A5 /* ANSDesignerTrackMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSDesignerTrackMessage.m; sourceTree = "<group>"; };
 		5BAE2FE18640CAED532DEDEA14BF4155 /* ANSAESAlgorithm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSAESAlgorithm.m; sourceTree = "<group>"; };
 		5C821E194D1226488F9D2188E447CDFE /* ANSCATransform3DToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSCATransform3DToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
@@ -349,7 +348,6 @@
 		606AE5D72384442E767BC918DC6C791B /* ANSEnumDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSEnumDescription.m; sourceTree = "<group>"; };
 		615A7E3F003F10AC5E23E26C7823EC65 /* ANSObjectSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSObjectSerializer.h; sourceTree = "<group>"; };
 		62DECF56FECC43C8670C875BFD238D9F /* ANSUserStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSUserStrategy.h; sourceTree = "<group>"; };
-		6389EDE0B4D207F91A2BEB156844C233 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		640EEF7D7535A01B8A135276108D7BF4 /* DefaultLifeCycleConfig.json */ = {isa = PBXFileReference; includeInIndex = 1; path = DefaultLifeCycleConfig.json; sourceTree = "<group>"; };
 		660BEA3164E0C8DEAEEEE906195C527C /* ANSEncryptUtis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSEncryptUtis.h; sourceTree = "<group>"; };
 		67929D806D1C1D0CB734986326C49D24 /* AnalysysPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AnalysysPush.m; sourceTree = "<group>"; };
@@ -368,13 +366,13 @@
 		706C862F331BD0BA7BC9EBA4CED3500E /* ANSDataCheck.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSDataCheck.m; sourceTree = "<group>"; };
 		717CDF3A805C89630BDDB9CE4EA9004E /* Pods-AnalysysSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalysysSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		72B751FDBA3B04ADC28465075DBC2C6E /* ANSFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSFileManager.h; sourceTree = "<group>"; };
+		73BE463D78C86BB8CA2512F7A2E5BFE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		73D4A43B1EAA0C8AD4933257DC885D68 /* ANSBundleUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSBundleUtil.m; sourceTree = "<group>"; };
 		754A0AFF34405EAD79C3AA5E426613F7 /* ResourceBundle-AnalysysAgent-AnalysysSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AnalysysAgent-AnalysysSDK-Info.plist"; sourceTree = "<group>"; };
 		76C9DB8DC4372E1760C5D20751D551C7 /* ANSObjectSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSObjectSelector.h; sourceTree = "<group>"; };
 		76D44D08CD56FF2339732C58F89BCDCA /* ANSClassDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSClassDescription.m; sourceTree = "<group>"; };
 		76F09CF057E129EA3A5DE1B577BEB1AD /* ANSDesignerSessionCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSDesignerSessionCollection.h; sourceTree = "<group>"; };
 		77B7F166C817923ECD190F8C18432B97 /* ANSLogParamsUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSLogParamsUtil.m; sourceTree = "<group>"; };
-		782428E797EAF60C6B46112E66836FCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		78BBC6877573A340480DA792CEB917D5 /* ANSTelephonyNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSTelephonyNetwork.m; sourceTree = "<group>"; };
 		7AD8F5682E88383373A7C90C09277B9A /* ANSDateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSDateUtil.m; sourceTree = "<group>"; };
 		7C0A8731A80FAEC6CD9AF1CB1DB5AC8A /* ANSCGSizeToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSCGSizeToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
@@ -402,7 +400,6 @@
 		9C6D7B33E2BC2E6A34436F8C559D16A5 /* ANSDataConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSDataConfig.h; sourceTree = "<group>"; };
 		9D5EF483A9D3BF3E7B7CCC66F88ED18B /* NSThread+ANSHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSThread+ANSHelper.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E31CCDA6D93F71A21233FE97D91D0EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9ECB39840D891375F214A150C0CC522C /* ANSNSNumberToCGFloatValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSNSNumberToCGFloatValueTransformer.m; sourceTree = "<group>"; };
 		9F038FF1FAE7908D380096196D5DC801 /* ANSStrategyProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSStrategyProtocol.h; sourceTree = "<group>"; };
 		9F4D0E11EB99DFC697E3860AD0D15CEC /* ANSCGRectToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSCGRectToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
@@ -423,12 +420,15 @@
 		B3F8FAF1398EF855C440E84F258FD8F1 /* ANSAllBuryPointModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSAllBuryPointModel.h; sourceTree = "<group>"; };
 		B5A6B0754140B8692C525408703C4EF4 /* AnalysysSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnalysysSDK.framework; path = AnalysysSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6EA08FAFD8EB57957503F390980785C /* ANSBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSBaseModel.m; sourceTree = "<group>"; };
+		B74C56D99E22206BC891FD2DD6F8064F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		B808A5DAEEA091B6DD765D854FD03C64 /* ANSObjectSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSObjectSelector.m; sourceTree = "<group>"; };
 		B8902CA9E82416D80BEE82FFBA485D74 /* ANSUIFontToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSUIFontToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
+		B8C45AD84BFDDAD7D3F613513D54E43B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B93F742CDEFC27E0D4B5BCC3391CFF6C /* ANSModuleProcessing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSModuleProcessing.h; sourceTree = "<group>"; };
 		BC20ADA5A45CEFC16596FB82D8376D94 /* ANSObjectIdentityProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSObjectIdentityProvider.h; sourceTree = "<group>"; };
 		BF4F39CCFBD2111278018A8DD9316A31 /* ANSABTestDesignerMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSABTestDesignerMessage.h; sourceTree = "<group>"; };
 		BFD10A7EBEF2B51ADCC1AE4741946389 /* NSString+ANSDBEncrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ANSDBEncrypt.h"; sourceTree = "<group>"; };
+		C1302B592BB406D5F1853E7251541B85 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 		C375C6B45D09C420DFFFF8522B5B4D60 /* ANSOpenURLAutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSOpenURLAutoTrack.h; sourceTree = "<group>"; };
 		C59DD74167E51934B5866BEAE89780BB /* ANSModuleConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSModuleConfig.m; sourceTree = "<group>"; };
 		C5E58776923D28CE33A316E12180FF4E /* ANSUncaughtExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSUncaughtExceptionHandler.h; sourceTree = "<group>"; };
@@ -446,6 +446,7 @@
 		D060CB17BD5A1C86B0C290AC37222998 /* ANSAllBuryIdentiferProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSAllBuryIdentiferProtocol.h; sourceTree = "<group>"; };
 		D118AB67471B52D00695FA68B787D84D /* ANSDesignerEventBindingRequestMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSDesignerEventBindingRequestMessage.m; sourceTree = "<group>"; };
 		D80AFAF5F852236A90C9A823C320FAFF /* ANSUITableViewBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSUITableViewBinding.h; sourceTree = "<group>"; };
+		D939818DD261CFC52DE796E1449C8B54 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		DBF94EE7C7A5BDE02B6DB440D2F92E31 /* AnalysysPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AnalysysPush.h; sourceTree = "<group>"; };
 		DC55AFE3C8E2F997295DC8DF14925C6D /* UIViewController+ANSSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ANSSwizzling.m"; sourceTree = "<group>"; };
 		DCB5ADFD6DE3F5B27CDBF08DD5FB1D41 /* ANSDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSDatabase.h; sourceTree = "<group>"; };
@@ -472,6 +473,7 @@
 		F481EBBA1C97ED60D259D46642AB5CD8 /* ANSKeyNameConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSKeyNameConst.h; sourceTree = "<group>"; };
 		F4F57F24920FB8570173A624E96688EE /* AnalysysAgentConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AnalysysAgentConfig.m; sourceTree = "<group>"; };
 		F751D7F1BD472880F8A20A76650BF72C /* ANSQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANSQueue.m; sourceTree = "<group>"; };
+		F8782270C64957C9D7ADF4635B1E14C9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		F9F8F0A22BA564C77E13F98E5A2943E6 /* NSString+ANSMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ANSMD5.h"; sourceTree = "<group>"; };
 		FA6504BDF17C3E7A803C16DC4C79CE2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FB5BFF9B66CA65A0A7250143AF1919FF /* ANSABTestDesignerDeviceInfoRequestMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANSABTestDesignerDeviceInfoRequestMessage.h; sourceTree = "<group>"; };
@@ -484,30 +486,31 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28CCE2619371E52326BB053373344DA9 /* Frameworks */ = {
+		35B86EA80A1516CB01B27B65027BA772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EDA47CF2C284251023710021C39BD8 /* AdSupport.framework in Frameworks */,
+				104E8D778E4234212E66A2F6A5D60035 /* CoreTelephony.framework in Frameworks */,
+				8CEC9687AAD00BEAE32D435208D31C08 /* Foundation.framework in Frameworks */,
+				B455CDDEDDA64DBC4CD09C8AC36AE4D4 /* SystemConfiguration.framework in Frameworks */,
+				89067D144DF73220AEEB32600FD4373C /* UIKit.framework in Frameworks */,
+				564EC40AF024A69F3FF8132EBB80F419 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB0B318D417496F4E3F6CE63588CABE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3089FD6C8C7094B8E34E4301FDEA3872 /* Frameworks */ = {
+		A6AE360802D86D581C605BF92A0857D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F6AAAC0B9EF0D1F32E331D996BBF4B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60912D5CB16A45EA402415A8C9B034F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22E89673AA21720F8F847C649306F900 /* AdSupport.framework in Frameworks */,
-				099FCE54A39803AB8177C9CC5A34B02A /* CoreTelephony.framework in Frameworks */,
-				1869601CAC7503EE53CE408ECF960558 /* Foundation.framework in Frameworks */,
-				F448BEB4F348880CB4A961C86EAB1220 /* SystemConfiguration.framework in Frameworks */,
-				5A78AF99A4D567EB8DE3EC4AC84AEE4B /* UIKit.framework in Frameworks */,
+				E43BE040D827E4A48803E93FF9ED03E0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,6 +783,19 @@
 			path = ModuleConfig;
 			sourceTree = "<group>";
 		};
+		7D85B7D6B6B0B4876E4AEB77020232C0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C1302B592BB406D5F1853E7251541B85 /* AdSupport.framework */,
+				F8782270C64957C9D7ADF4635B1E14C9 /* CoreTelephony.framework */,
+				B8C45AD84BFDDAD7D3F613513D54E43B /* Foundation.framework */,
+				B74C56D99E22206BC891FD2DD6F8064F /* SystemConfiguration.framework */,
+				73BE463D78C86BB8CA2512F7A2E5BFE4 /* UIKit.framework */,
+				D939818DD261CFC52DE796E1449C8B54 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		835436A117851302FDC77A88DE334A9B /* DesignerSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -909,14 +925,6 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
-		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F345BC2BE10EB31FF208FCCAA8692CEB /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		CC339242FF0628086220FC67995A6659 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -930,10 +938,18 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				CC339242FF0628086220FC67995A6659 /* Development Pods */,
-				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
 				6798DDBFF7037DA0F23E5599AB4FBDEB /* Products */,
 				671A3D2B2C4C02207D1EC3A6C00FAB3F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D85B7D6B6B0B4876E4AEB77020232C0 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D7FE32D2438F79E9CC326AD27A37FA18 /* Support Files */ = {
@@ -985,18 +1001,6 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		F345BC2BE10EB31FF208FCCAA8692CEB /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				48E28CD5459D2E0E75D5F32E09E4A9A1 /* AdSupport.framework */,
-				6389EDE0B4D207F91A2BEB156844C233 /* CoreTelephony.framework */,
-				9E31CCDA6D93F71A21233FE97D91D0EB /* Foundation.framework */,
-				5B4A69177394FFDDAA4C20914EEF2A3A /* SystemConfiguration.framework */,
-				782428E797EAF60C6B46112E66836FCC /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		FF3ACE90B4A153EA5ED8486D6CA37CA5 /* Module */ = {
 			isa = PBXGroup;
 			children = (
@@ -1040,115 +1044,115 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3E2C7D1F85C7C1010273D4582C5428EE /* Headers */ = {
+		8AA60489FEC8C33F0FBB54EF9FE358A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CD36CE7B7BAD17F89C956DB02390E12 /* Pods-AnalysysSDK_Example-umbrella.h in Headers */,
+				76FD094FE6FA2909E97509969DDBB31B /* AnalysysAgent.h in Headers */,
+				35EF53FD0DDDAA0BF395BE015FDD99D8 /* AnalysysAgentConfig.h in Headers */,
+				D704B5086527113F4DEB4F7F3700B6B1 /* AnalysysLogger.h in Headers */,
+				9DB31F4B07AFD68BE4440DE0402BD1B0 /* AnalysysPush.h in Headers */,
+				EAFEABC133E990F629F1F0F424AB7372 /* AnalysysSDK-umbrella.h in Headers */,
+				D409FD74ED86144E01964323C07236D0 /* AnalysysSDK.h in Headers */,
+				95D93604C1F43DFB53C60453F2E66C3A /* AnalysysVisual.h in Headers */,
+				4C8D649D73619A90AB7DD8D283BD3E65 /* ANSAbstractABTestDesignerMessage.h in Headers */,
+				9E6B5E3A3A44AEB4D9F529F5DAAF199E /* ANSABTestDesignerConnection.h in Headers */,
+				CD6BFE7D8DA650E35FBDF886523795FD /* ANSABTestDesignerDeviceInfoRequestMessage.h in Headers */,
+				83176754BA2FCDB0A0761A4B2BDEEC09 /* ANSABTestDesignerDeviceInfoResponseMessage.h in Headers */,
+				B819459F98C86FB5CEED54C0D10185A6 /* ANSABTestDesignerMessage.h in Headers */,
+				13DC8FBBD8B419C84F74A5D538CF638E /* ANSABTestDesignerSnapshotRequestMessage.h in Headers */,
+				284F74C534CA8329263A0B0E9B793EB4 /* ANSABTestDesignerSnapshotResponseMessage.h in Headers */,
+				658623E4880A370A972D46A1483257C7 /* ANSAESAlgorithm.h in Headers */,
+				CB069732AE00230DA6DD0E0D7CB19634 /* ANSAllBuryIdentiferProtocol.h in Headers */,
+				FB2EC6C059E48453E2ACA285C7648D45 /* ANSAllBuryPoint.h in Headers */,
+				6A75681F938C6E8B227FC65044ECBC97 /* ANSAllBuryPointModel.h in Headers */,
+				F4D99E85AF3EA69E1CDFB22F66C380B7 /* ANSApplicationStateSerializer.h in Headers */,
+				516E03EDC4268A2ECECD1F70C6E84AD5 /* ANSAppStartSource.h in Headers */,
+				33825ACD8CE2D921E1CADF9CBAEBABF5 /* ANSAutoTrackCellProperty.h in Headers */,
+				D453387F2B1C2D6EB3E96E054748FE06 /* ANSAutoTrackProperty.h in Headers */,
+				BD2B86ECBEDF2BA26E48C433A725F171 /* ANSBaseModel.h in Headers */,
+				B666505E38E33FAABE163187F1FDD61D /* ANSBundleUtil.h in Headers */,
+				3222D92B3EF22D50EBB01FB32878DE12 /* ANSClassDescription.h in Headers */,
+				246520D0320C8AC584712D8CF5C6C44F /* ANSConst+private.h in Headers */,
+				E88071AA8D17751A04545EA8DEE3FE29 /* ANSConst.h in Headers */,
+				0D17ADD51FEBC41251043C21A23FA7D8 /* ANSControllerUtils.h in Headers */,
+				EF4A53936AD51F278FB5D25C6D81E61A /* ANSDatabase.h in Headers */,
+				D81592A35A4117F9B1CD3B71BD8EB60F /* ANSDataCheck.h in Headers */,
+				870DE7C3E854172F025A654EAED68FD8 /* ANSDataCheckLog.h in Headers */,
+				21CC3AA2A28D84B4A7FD1375928B18A2 /* ANSDataCheckRouter.h in Headers */,
+				AE093869A91F126CF039CBD74CC69944 /* ANSDataConfig.h in Headers */,
+				A52EB0F7F4BA6420730CAF3319D84AE8 /* ANSDataEncrypt.h in Headers */,
+				FCB6F13876261ED9691F6DF1764BBBEA /* ANSDataFunc.h in Headers */,
+				4DB23B0AC52FE22842487144078C0C79 /* ANSDataProcessing.h in Headers */,
+				582CC2BF85FAB7C5068ECC658053B2B9 /* ANSDateUtil.h in Headers */,
+				F2B19023D583F7DD61991275110CAA5B /* ANSDefaultStrategy.h in Headers */,
+				76B166753A39B3361DD40BD070EDA0EE /* ANSDelayStrategy.h in Headers */,
+				E82791211AD44EA5BAE966EE1BA29530 /* ANSDesignerEventBindingMessage.h in Headers */,
+				07DDD487CCB4F271410DDC9A9F144B2F /* ANSDesignerSessionCollection.h in Headers */,
+				9FD9072ADC6EC09DA4F318B4787C2EB7 /* ANSDeviceInfo.h in Headers */,
+				5E09EE422844F3FCF64645DF0A0B58AF /* ANSEncryptUtis.h in Headers */,
+				245CD5F6FE75C3C23F12D0A33B3F004F /* ANSEnumDescription.h in Headers */,
+				F75F6CB61ED5B692FFBBE0ADECAE43BE /* ANSEventBinding.h in Headers */,
+				EA9574C03134F179C8FAF32EAA0BDEF7 /* ANSFileManager.h in Headers */,
+				E6DA0F0338062E5FA614D41BC2DC3F7D /* ANSGzip.h in Headers */,
+				5B62D306310E7EA51FD958484C741B3B /* ANSHeatMapAutoTrack.h in Headers */,
+				1CB7EB1602E2191959A0B825C377ECCC /* ANSHeatMapFunc.h in Headers */,
+				BD85CB2DA71246C4938E6A7274FA86AB /* ANSHybrid.h in Headers */,
+				EBCA2708345ADFB28795FD7344B4654A /* ANSJsonUtil.h in Headers */,
+				4C2D202B4D27C0272AAA8971531BA0B7 /* ANSKeychainItemWrapper.h in Headers */,
+				EEE49BCED9A990400FD66A7A12652726 /* ANSKeyNameConst.h in Headers */,
+				F8B7018C1E1213100AE8698D6AC4EA0E /* ANSLock.h in Headers */,
+				094DB62196C509EA45E552FF744CF7A1 /* ANSLogParamsUtil.h in Headers */,
+				51AE26C02A94D2AF52ADF016ED64EB05 /* ANSMediator.h in Headers */,
+				3367C4B70BB22E57DF53AFB5138342C9 /* ANSModuleConfig.h in Headers */,
+				30089BD40FB3C583EAAF566A238229E7 /* ANSModuleProcessing.h in Headers */,
+				AC75FAAC98FCD64F619D18109348D951 /* ANSObjectIdentityProvider.h in Headers */,
+				34FBDD25410092FD4854B3B45C44E548 /* ANSObjectSelector.h in Headers */,
+				2501346401100AB23D153ADCC88B178A /* ANSObjectSerializer.h in Headers */,
+				3852E0F2053033219FB8E11C4120F373 /* ANSObjectSerializerConfig.h in Headers */,
+				C1ED574FA90ECA1A1D4244382AA7B693 /* ANSObjectSerializerContext.h in Headers */,
+				E850EE3E822210923721D28B70273B7D /* ANSOpenURLAutoTrack.h in Headers */,
+				7FC436733E93997AEF8F3BD9F40532D8 /* ANSPageAutoTrack.h in Headers */,
+				9F4477BD66F2E1DBCCF1E27CCEA68A4C /* ANSPropertyDescription.h in Headers */,
+				CEA7F733055ECB1AB93DA85F6DE2AC5D /* ANSProtocolSwizzler.h in Headers */,
+				5890D431FC78A7DFA2C885084A1F14B3 /* ANSQueue.h in Headers */,
+				29C41E4BCE3C61722B3401418D036E55 /* ANSReachability.h in Headers */,
+				93691ADACC0DD425981F7790EF4FD11B /* ANSSequenceGenerator.h in Headers */,
+				557ACC6F3B7ABEFC583B003D14644522 /* ANSServerStrategy.h in Headers */,
+				C671C3B24CAAA3D792BE17CE7B872EE0 /* ANSSession.h in Headers */,
+				89330A50B5FCE5B1AF8685E6AD46D7A3 /* ANSStrategyManager.h in Headers */,
+				AB0F381E84E045B0991DE39B7AA5E7D9 /* ANSStrategyProtocol.h in Headers */,
+				52015477E34DA7D176FDF6A2336D9E1E /* ANSSwizzler.h in Headers */,
+				FF8BB7234E6442FA0A0F8B252038E3C0 /* ANSTelephonyNetwork.h in Headers */,
+				E970C02413C1CE47DE43735EE52F5071 /* ANSTimeCheckManager.h in Headers */,
+				2092F712A7A2631FA7E62DF0963B1B58 /* ANSTypeDescription.h in Headers */,
+				6B758FD628A447F217697B2381D25D25 /* ANSUIControlBinding.h in Headers */,
+				3A1A16044C517EC3700F0AC39B614278 /* ANSUITableViewBinding.h in Headers */,
+				81A581DC390E328BECC71FDB76B68864 /* ANSUncaughtExceptionHandler.h in Headers */,
+				169381E5B1A4587E60A73D4D1E23E2F7 /* ANSUploadManager.h in Headers */,
+				8D7B2910DDA57689E9FD52FF16320988 /* ANSUserStrategy.h in Headers */,
+				DA110BA3012AA7BF0E99054A1D1F9D09 /* ANSUtil.h in Headers */,
+				846E6F4CAC48CAF282691AC48CE82404 /* ANSValueTransformers.h in Headers */,
+				AB0CB78ADEBFF56C6A48CEBBC3D8B73D /* ANSVisualSDK.h in Headers */,
+				AAD47BF68BC0CA4CB8ABBC92A8CBDA1A /* ANSWebSocket.h in Headers */,
+				E48CE57C176BEF2377070EEEC197C3F7 /* NSInvocation+ANSHelper.h in Headers */,
+				80D532005678C6AC798C019CDCDD7123 /* NSObject+ANSSwizzling.h in Headers */,
+				A9D9A68BAEC424D43E5EF6B5E5797841 /* NSString+ANSDBEncrypt.h in Headers */,
+				36D232D1915E3ED614EEBE0780BF80E8 /* NSString+ANSMD5.h in Headers */,
+				FFE54D2A0DA183B7558E7C1A1259B682 /* NSThread+ANSHelper.h in Headers */,
+				A03B10199E3636ADBBD37A9FAFD6FEC2 /* UIView+ANSAllBuryIdentifer.h in Headers */,
+				C4E0A17CC466E42D4E29DEFCD72B353E /* UIView+ANSAutoTrack.h in Headers */,
+				71038545B05B0A8A03E7E8D451478811 /* UIView+ANSHelper.h in Headers */,
+				BD3F04CE136A9A85D60C92CB740BC83C /* UIView+ANSPathUtils.h in Headers */,
+				616840F2F44F272A7FD1EB07049AC866 /* UIViewController+ANSSwizzling.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE31AEC38C2F4F846CF10574B80882B1 /* Headers */ = {
+		F4070FE2BC846BEDE33212B02D457EE9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75428697023EC737901F458E2B3A1BD8 /* AnalysysAgent.h in Headers */,
-				F7777CE9AFA70B57CE618E66576A4536 /* AnalysysAgentConfig.h in Headers */,
-				BC7CAB9E848A264578AC76D9F690220E /* AnalysysLogger.h in Headers */,
-				F98B9D422129CEBD63F95E7620BBC2A5 /* AnalysysPush.h in Headers */,
-				492DCEBB6E91F0F3E8C41F3A62E30702 /* AnalysysSDK-umbrella.h in Headers */,
-				44AADE158533A883E1AB4059F1E99058 /* AnalysysSDK.h in Headers */,
-				AFA68BC227A6E8CD1E64A8FAEAF5C888 /* AnalysysVisual.h in Headers */,
-				D1A970744D597F1C3C4DD35E90D0E580 /* ANSAbstractABTestDesignerMessage.h in Headers */,
-				17A07966342672B7E154581A3CEEC2D1 /* ANSABTestDesignerConnection.h in Headers */,
-				92746C3B8B81474C4798A2265B20E4C1 /* ANSABTestDesignerDeviceInfoRequestMessage.h in Headers */,
-				C6B4D24A8A3D2E95E6EC29F0AFB83F82 /* ANSABTestDesignerDeviceInfoResponseMessage.h in Headers */,
-				436A4451410D4BB395F896B69C6900EE /* ANSABTestDesignerMessage.h in Headers */,
-				2DC3B501BF49F7FC96BC50434CEA5E45 /* ANSABTestDesignerSnapshotRequestMessage.h in Headers */,
-				9030DECB41734155BC4DD06F6FB32606 /* ANSABTestDesignerSnapshotResponseMessage.h in Headers */,
-				5408B2C45E3FD5328F45035341D50456 /* ANSAESAlgorithm.h in Headers */,
-				BC7D799A3D91E58DD2C5939183DB0AA5 /* ANSAllBuryIdentiferProtocol.h in Headers */,
-				95F02C95558F9B8F7D43264885DACD75 /* ANSAllBuryPoint.h in Headers */,
-				9B2A4409D00DDE8442DE9B0985DB1B92 /* ANSAllBuryPointModel.h in Headers */,
-				87D875723D67DF5F10D9A4D1481045E1 /* ANSApplicationStateSerializer.h in Headers */,
-				5533D1BF8E9DC6A8ACD3084FC1052ED2 /* ANSAppStartSource.h in Headers */,
-				D7B592009BD422E827FF92E9CA054105 /* ANSAutoTrackCellProperty.h in Headers */,
-				A6C854744CB8F81C0BA760AA89BAF900 /* ANSAutoTrackProperty.h in Headers */,
-				6BFAC6ABBC21860E0C39FFCA8C287242 /* ANSBaseModel.h in Headers */,
-				5ADB31D691D86799FBDB8C7F9AD29BE4 /* ANSBundleUtil.h in Headers */,
-				4F109D3B73A3EF4DF15360701526CCA3 /* ANSClassDescription.h in Headers */,
-				DA6EFD55BB1375A32AC5710BDF153455 /* ANSConst+private.h in Headers */,
-				4BF3565475BAEDD1C3C6D7EB5419CC8F /* ANSConst.h in Headers */,
-				764225422830F27B1CBF884EA8A479F2 /* ANSControllerUtils.h in Headers */,
-				4DB0ACAE49082C07E1E2EF0B88E65FE7 /* ANSDatabase.h in Headers */,
-				DA1B154D34C8FD37D2DD119721F6D714 /* ANSDataCheck.h in Headers */,
-				232000F78FA091F66E49F2CD02D36A99 /* ANSDataCheckLog.h in Headers */,
-				9B3D48240079181B7D4197D06C518E0A /* ANSDataCheckRouter.h in Headers */,
-				47540CF5E9DA521864445394CBF580A0 /* ANSDataConfig.h in Headers */,
-				085DDB3E80E74EF95CC8A6E73F468709 /* ANSDataEncrypt.h in Headers */,
-				61EB00C12F832BD04F0512FB766A1564 /* ANSDataFunc.h in Headers */,
-				3C62CD9A321695FF483C8BEF3AE62D1D /* ANSDataProcessing.h in Headers */,
-				B26A7E000CBE5FCE09E5B9FF870C9FDD /* ANSDateUtil.h in Headers */,
-				481F849394B3358EDDD54C8BA047E3F0 /* ANSDefaultStrategy.h in Headers */,
-				B6CF20F8F55F6248841D440C454AC050 /* ANSDelayStrategy.h in Headers */,
-				C78B3F4C7523962176E126EA7364434C /* ANSDesignerEventBindingMessage.h in Headers */,
-				61A85D93E2CDDFCF811B823AF5AA2788 /* ANSDesignerSessionCollection.h in Headers */,
-				283B05E7197BDE768E88692AA515741C /* ANSDeviceInfo.h in Headers */,
-				BB1BFFAC93FFB34E1BF084AF4CA92C05 /* ANSEncryptUtis.h in Headers */,
-				833982B3C8BEF6EBA1BCA2941254EF29 /* ANSEnumDescription.h in Headers */,
-				52FF012BB0DD5B5E92136F3585323002 /* ANSEventBinding.h in Headers */,
-				A93CB887F6E34846DD5DC860DC685291 /* ANSFileManager.h in Headers */,
-				205C5B1C782D4271E752C2D7BCC71AF6 /* ANSGzip.h in Headers */,
-				E541CC2F44C773B2A3486775698A764D /* ANSHeatMapAutoTrack.h in Headers */,
-				1B5DB1822474A919DC9964FA9D4E3069 /* ANSHeatMapFunc.h in Headers */,
-				66C4F2E8602EA6ECB53BF3D33D27A69D /* ANSHybrid.h in Headers */,
-				A1DA5C9AE8E466DFF117EACF9635C451 /* ANSJsonUtil.h in Headers */,
-				2F856586ACA5DCC5FA403231AD20A2D9 /* ANSKeychainItemWrapper.h in Headers */,
-				E2F33CA30CCA14C24A784CDE9EF4E572 /* ANSKeyNameConst.h in Headers */,
-				62007199D59B574C66B4270701918012 /* ANSLock.h in Headers */,
-				A04125592DEE460956F6F1D0DF79E554 /* ANSLogParamsUtil.h in Headers */,
-				49F9C9E8CB526F64C98FF308A35FE613 /* ANSMediator.h in Headers */,
-				58EF3DE465AEBEA9A66CB20AAF06790D /* ANSModuleConfig.h in Headers */,
-				65C8F5BFEFE41E05F7FF868072208D64 /* ANSModuleProcessing.h in Headers */,
-				26328B34C995186E756C27F55C5A9776 /* ANSObjectIdentityProvider.h in Headers */,
-				3C4BE27AAB014049A7E8BF299564CF0C /* ANSObjectSelector.h in Headers */,
-				8C25E9569C51A13249E8DD03B6647136 /* ANSObjectSerializer.h in Headers */,
-				8C1BD900D28D22A936D094F9EB3AAC94 /* ANSObjectSerializerConfig.h in Headers */,
-				FA0EB06BA69DA0C1695E1177FC16B3E3 /* ANSObjectSerializerContext.h in Headers */,
-				F7B39A6B67D0192886D1124905B44A13 /* ANSOpenURLAutoTrack.h in Headers */,
-				E64FCFC2808A8A96861D24753E2343C7 /* ANSPageAutoTrack.h in Headers */,
-				5C122B35162B2D1EEB689A447ED0E1EF /* ANSPropertyDescription.h in Headers */,
-				370437E203266687943E8C6B0E8C4D2D /* ANSProtocolSwizzler.h in Headers */,
-				04EFEE1E02E9B8E1F589F33EEA09136B /* ANSQueue.h in Headers */,
-				499E71F2EF7682745FD8F46ED745CA42 /* ANSReachability.h in Headers */,
-				118670BC8423B3E00500FF8D2D128E9C /* ANSSequenceGenerator.h in Headers */,
-				13529439DC7A15CCD3B097A3949CD563 /* ANSServerStrategy.h in Headers */,
-				7F8B849848D8C5FCE4E0D246C3C88801 /* ANSSession.h in Headers */,
-				75F015E33000ECF19AB656F703C7B6C6 /* ANSStrategyManager.h in Headers */,
-				E894C78DEFDB4E01206AFD5C519D682E /* ANSStrategyProtocol.h in Headers */,
-				A36AD70F9F33D80E77CDEFD1F8BAAB3A /* ANSSwizzler.h in Headers */,
-				0ECF76A508F514679319B1556CCDBEC9 /* ANSTelephonyNetwork.h in Headers */,
-				3821AD825C5C39EC4A8E007443B9F95D /* ANSTimeCheckManager.h in Headers */,
-				D39BDC6CE656CF8C40E94F564EF37EA5 /* ANSTypeDescription.h in Headers */,
-				DABE0C880020A733150456069BDE9B80 /* ANSUIControlBinding.h in Headers */,
-				E681DA7EF0F049252550639F68FEACA1 /* ANSUITableViewBinding.h in Headers */,
-				6B4314525691FA52AE11958B453FA32E /* ANSUncaughtExceptionHandler.h in Headers */,
-				CACAA31E04FBB26186BF7317390EE7E5 /* ANSUploadManager.h in Headers */,
-				5E7A1AF764AC7B10C268BE6F566942A0 /* ANSUserStrategy.h in Headers */,
-				6C9D3F4EB063FD4A2C53640611639588 /* ANSUtil.h in Headers */,
-				055D5C0280E7C47B0E74E38ED72FE04B /* ANSValueTransformers.h in Headers */,
-				9147DF6A74042D5CB950E9C0CCB344DE /* ANSVisualSDK.h in Headers */,
-				493BFEDD8D7DC238F5D6637235B74283 /* ANSWebSocket.h in Headers */,
-				186C7C6DA65C92D66DDCBE6AAB4A1251 /* NSInvocation+ANSHelper.h in Headers */,
-				B50C6561897B9DA771A4A6EA3931B95B /* NSObject+ANSSwizzling.h in Headers */,
-				570E33E7002F301A99333B33266F5515 /* NSString+ANSDBEncrypt.h in Headers */,
-				F5E9BC35CE4249C4F260D4E80614C585 /* NSString+ANSMD5.h in Headers */,
-				6B861B99D4F29FD4EC1605B34A33EC7C /* NSThread+ANSHelper.h in Headers */,
-				09C89B91FEF067CCE8139B00F5DEE797 /* UIView+ANSAllBuryIdentifer.h in Headers */,
-				3FE17743DFD250C58E4B717D9A1B8534 /* UIView+ANSAutoTrack.h in Headers */,
-				80946C85E097B20C47B2A88CEE02E555 /* UIView+ANSHelper.h in Headers */,
-				F7D1C516470DD5943722498DFCF0F81C /* UIView+ANSPathUtils.h in Headers */,
-				FBA759D6D91AF4FC319A9B8DE6B10C42 /* UIViewController+ANSSwizzling.h in Headers */,
+				F23E24C650E5DBD9D443663417542C9D /* Pods-AnalysysSDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1157,17 +1161,17 @@
 /* Begin PBXNativeTarget section */
 		27AC48BC542282E5ECA00A27D0AB65BD /* AnalysysSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D5F2280A264CB131E115550589B01FC /* Build configuration list for PBXNativeTarget "AnalysysSDK" */;
+			buildConfigurationList = E17A9DCB7A210DB3C2AA3CFDC7182ABC /* Build configuration list for PBXNativeTarget "AnalysysSDK" */;
 			buildPhases = (
-				CE31AEC38C2F4F846CF10574B80882B1 /* Headers */,
-				7E9B14766DF723C29F056F8E089DD5AF /* Sources */,
-				60912D5CB16A45EA402415A8C9B034F3 /* Frameworks */,
-				1FDDDCC15F933F674426AFDA13087A00 /* Resources */,
+				8AA60489FEC8C33F0FBB54EF9FE358A2 /* Headers */,
+				159BAEFAA1D8283151C7245FAA34456A /* Sources */,
+				35B86EA80A1516CB01B27B65027BA772 /* Frameworks */,
+				6AD5E0F55948B9DEF52BB662E5F78988 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1681A79034D8C04DAB15EA31AF7A329 /* PBXTargetDependency */,
+				C3A6DD2A631B84818A002682100E4E5A /* PBXTargetDependency */,
 			);
 			name = AnalysysSDK;
 			productName = AnalysysSDK;
@@ -1176,11 +1180,11 @@
 		};
 		547D8EEE54833054DDDD9EE780146750 /* AnalysysSDK-AnalysysAgent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA7F64E798E8815BD103AB8F1CD5D459 /* Build configuration list for PBXNativeTarget "AnalysysSDK-AnalysysAgent" */;
+			buildConfigurationList = 7BCABC452006D4CDDAC423B61B3B1F9E /* Build configuration list for PBXNativeTarget "AnalysysSDK-AnalysysAgent" */;
 			buildPhases = (
-				83FFCE40E517D7B8F42BC3747038AFD0 /* Sources */,
-				28CCE2619371E52326BB053373344DA9 /* Frameworks */,
-				053CEFFBD99C0916D24B76207EC95EB7 /* Resources */,
+				53C5A81AEAEFE8854F7761455A0C314E /* Sources */,
+				4FB0B318D417496F4E3F6CE63588CABE /* Frameworks */,
+				C8A06F0AFA09F6386937B8A958A18CE6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1193,17 +1197,17 @@
 		};
 		D3A609B1E04E6A75E6B7388819045A8E /* Pods-AnalysysSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19335A47B6311E7D86AB09031D7F2969 /* Build configuration list for PBXNativeTarget "Pods-AnalysysSDK_Example" */;
+			buildConfigurationList = F417EF3CC08442EB92A8D3B5749A78B9 /* Build configuration list for PBXNativeTarget "Pods-AnalysysSDK_Example" */;
 			buildPhases = (
-				3E2C7D1F85C7C1010273D4582C5428EE /* Headers */,
-				22240FA983E598A682370E9E76C8A7A3 /* Sources */,
-				3089FD6C8C7094B8E34E4301FDEA3872 /* Frameworks */,
-				7A4E0B5ABBE567D44B97139B0BE25CC2 /* Resources */,
+				F4070FE2BC846BEDE33212B02D457EE9 /* Headers */,
+				93565C4CA706013CC4E710EA4A07842D /* Sources */,
+				A6AE360802D86D581C605BF92A0857D1 /* Frameworks */,
+				FE1C3411D10228528DF83E9D240CCC9A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2DDBE692A7CC5540B9AEE2BD5B168241 /* PBXTargetDependency */,
+				0EE726633859AB5D5ACAB4574526EA5B /* PBXTargetDependency */,
 			);
 			name = "Pods-AnalysysSDK_Example";
 			productName = "Pods-AnalysysSDK_Example";
@@ -1240,28 +1244,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		053CEFFBD99C0916D24B76207EC95EB7 /* Resources */ = {
+		6AD5E0F55948B9DEF52BB662E5F78988 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80519867B2FD9EF5F7179D2C3E4635D5 /* AnalysysAgent.bundle in Resources */,
-				BE9C4764854877C093B1A1203339D6F4 /* DefaultFieldRules.json in Resources */,
-				6676E0BEB7A7C9EEE98EAD62B5446FE5 /* DefaultLifeCycleConfig.json in Resources */,
-				70514F3225BA3BC05FC3CAB84DB0639D /* DefaultTemplateData.json in Resources */,
-				148EA4BE1A280CB7E85A91800A1A4C78 /* HeatMapFieldRules.json in Resources */,
-				DD3626A472026D929AF7C5C1070B1A40 /* HeatMapTemplateData.json in Resources */,
+				F5348DAE4846846DE92FA203C1504478 /* AnalysysAgent.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FDDDCC15F933F674426AFDA13087A00 /* Resources */ = {
+		C8A06F0AFA09F6386937B8A958A18CE6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B828AF9A626F90D5FBD2BFC698E03AD9 /* AnalysysAgent.bundle in Resources */,
+				749AE9D90824F3F5C65BD4A0F667DED3 /* AnalysysAgent.bundle in Resources */,
+				106DFE6F4CA857FA87716467C753EA79 /* DefaultFieldRules.json in Resources */,
+				D2225FC71869827B3C2522100FB6F226 /* DefaultLifeCycleConfig.json in Resources */,
+				43CE75B8E79DC54DDCDB0152FE6C4E0D /* DefaultTemplateData.json in Resources */,
+				BD283648103F5DDF88FE4DB381D14E48 /* HeatMapFieldRules.json in Resources */,
+				2FA00E6222D224919E819FBAD5170852 /* HeatMapTemplateData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A4E0B5ABBE567D44B97139B0BE25CC2 /* Resources */ = {
+		FE1C3411D10228528DF83E9D240CCC9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1271,153 +1275,185 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22240FA983E598A682370E9E76C8A7A3 /* Sources */ = {
+		159BAEFAA1D8283151C7245FAA34456A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD703E898EE8B4AA7B6D9A5D95FF71EE /* Pods-AnalysysSDK_Example-dummy.m in Sources */,
+				A34A588F3F1C8B0F498FA20CC86ED04F /* AnalysysAgent.m in Sources */,
+				DEAAF412451AFC3BAE01B64E5B6D0A53 /* AnalysysAgentConfig.m in Sources */,
+				BBFCBF51C38CD0A6E78C23727C630357 /* AnalysysLogger.m in Sources */,
+				F6250F81E699C3F66A3526D3EDB352C2 /* AnalysysPush.m in Sources */,
+				87938EB312A37E4D71D96500A4775821 /* AnalysysSDK-dummy.m in Sources */,
+				80BF432C08B8B1A7374EA581EF8D1D2B /* AnalysysSDK.m in Sources */,
+				7C8577732993D82258E5108255194551 /* AnalysysVisual.m in Sources */,
+				94D149C8817D6672E9FDDC7587ECD41B /* ANSAbstractABTestDesignerMessage.m in Sources */,
+				F4908A1935D2260BC9538FEBC664D1CD /* ANSABTestDesignerConnection.m in Sources */,
+				263D2D8379D00BB109805BF2CCDC4936 /* ANSABTestDesignerDeviceInfoRequestMessage.m in Sources */,
+				FAD88ED3F7A3BF3A4BA6A109FE06DE24 /* ANSABTestDesignerDeviceInfoResponseMessage.m in Sources */,
+				CBEAFC208D52E1CDF9304046193DD618 /* ANSABTestDesignerSnapshotRequestMessage.m in Sources */,
+				798817ACA0421025286D9146B57E61BE /* ANSABTestDesignerSnapshotResponseMessage.m in Sources */,
+				3CF100FA23EAD0D769BF0B78399870D9 /* ANSAESAlgorithm.m in Sources */,
+				C60F3C9803E967F26C0D7E541AE529E0 /* ANSAllBuryPoint.m in Sources */,
+				0860BF6A5AB4FDE062FDAB50091C08A6 /* ANSAllBuryPointModel.m in Sources */,
+				4F618FE1B8E5A8FF5B7B7591AAC83716 /* ANSApplicationStateSerializer.m in Sources */,
+				167262235E9D0EC67F79D163B59117A2 /* ANSAppStartSource.m in Sources */,
+				FD98F1586FBCB07D2C9FB9C683FFF575 /* ANSBaseModel.m in Sources */,
+				A7A419354D14D7A2535EC56825DE5931 /* ANSBOOLToNSNumberValueTransformer.m in Sources */,
+				EB8E464398B39BE7D00EB886406B09AE /* ANSBundleUtil.m in Sources */,
+				9F80FFE73D70D089650DBB39D4C1B2F9 /* ANSCATransform3DToNSDictionaryValueTransformer.m in Sources */,
+				57AA2A52FEB9147B81343D8E8B047D43 /* ANSCGAffineTransformToNSDictionaryValueTransformer.m in Sources */,
+				5D74D9D934E5DD909483A361372C1454 /* ANSCGColorRefToNSStringValueTransformer.m in Sources */,
+				88803CB4190F197C1BCE65D49CB46517 /* ANSCGPointToNSDictionaryValueTransformer.m in Sources */,
+				8CB1B8D558D77F43E5FBF45858FD4264 /* ANSCGRectToNSDictionaryValueTransformer.m in Sources */,
+				600DEB7D22D4CC1CB11CD5A40646EEDE /* ANSCGSizeToNSDictionaryValueTransformer.m in Sources */,
+				13DD98F23F1226A883181F799CDFCF5B /* ANSClassDescription.m in Sources */,
+				205C166CC5E5E6357A53A4A4DAC52450 /* ANSConst.m in Sources */,
+				37DD2639DA5CFB79DEB3C4B535C248B0 /* ANSControllerUtils.m in Sources */,
+				B6B6200A935ACE3E0ED152795052A2CA /* ANSDatabase.m in Sources */,
+				91EB2D78E7C907B4233DFD246BF33667 /* ANSDataCheck.m in Sources */,
+				D10C5E58C931228DBC8886D252AEFBCD /* ANSDataCheckLog.m in Sources */,
+				87F1D88BA107C08D186B30806B0652A4 /* ANSDataCheckRouter.m in Sources */,
+				91BACF432FCEF2858EE7CBA5DF58BBB2 /* ANSDataConfig.m in Sources */,
+				906467021517D88D355E95BDD643EF50 /* ANSDataEncrypt.m in Sources */,
+				07376078C1B8B6DBA954079067CCFC18 /* ANSDataFunc.m in Sources */,
+				EB53B51F014D2A16AF1299E7D57A037C /* ANSDataProcessing.m in Sources */,
+				FD51E95D9F33D4A2D3FC2C6E1B611D79 /* ANSDateUtil.m in Sources */,
+				476563CFB3236B673F8D4391CC900E31 /* ANSDefaultStrategy.m in Sources */,
+				0A628CC38E2E740BAD7962C35F9EA4A7 /* ANSDelayStrategy.m in Sources */,
+				09BCE3AD0668AA10ACDFB70C4357600F /* ANSDesignerEventBindingRequestMessage.m in Sources */,
+				06E7CB1C6A41029D302AFBF6B7FA13AF /* ANSDesignerEventBindingResponseMesssage.m in Sources */,
+				B81F0BA88DE7CDE5AA35BE6D829A660A /* ANSDesignerTrackMessage.m in Sources */,
+				8E25B6BC9FB8C194029716F0F72844FD /* ANSDeviceInfo.m in Sources */,
+				748776B6BBCBDC7F528E76C34D5DCAAC /* ANSEncryptUtis.m in Sources */,
+				456695483D785EEA4AFE6D69291D1BFD /* ANSEnumDescription.m in Sources */,
+				F8BACE5B7914B63D70852310FB632800 /* ANSEventBinding.m in Sources */,
+				2B28B7C0B9431C9CAC6C6FDC3B8E92EF /* ANSFileManager.m in Sources */,
+				988D49C706304947D7F5B7732F80F7D4 /* ANSGzip.m in Sources */,
+				6C417BE08DE4F2A3EB85B5DF1633DDA6 /* ANSHeatMapAutoTrack.m in Sources */,
+				9A77E7112C41CD7E4A47D2559C78CCE5 /* ANSHeatMapFunc.m in Sources */,
+				05332B7E5F66B30521A8C1D87DBD605C /* ANSHybrid.m in Sources */,
+				A11F36C3A10916E00047D8EB56716912 /* ANSJsonUtil.m in Sources */,
+				DF8393FF308297E2EA1333B647613C44 /* ANSKeychainItemWrapper.m in Sources */,
+				AC89B821F327C09E60971A626E0ADAAB /* ANSKeyNameConst.m in Sources */,
+				DB2A6193493EB98A69188E44ECACC4C6 /* ANSLock.m in Sources */,
+				7853D9C39E51D7B529BABF0A99DB7D3E /* ANSLogParamsUtil.m in Sources */,
+				A3A1834247E74713E4DBC3168B179555 /* ANSMediator.m in Sources */,
+				855F044F2759F673E3FED051FD884236 /* ANSModuleConfig.m in Sources */,
+				0CD152726E100277B16ACD74716B2EF3 /* ANSModuleProcessing.m in Sources */,
+				C18FDF732CBF515AECDCE5A6D55689CD /* ANSNSAttributedStringToNSDictionaryValueTransformer.m in Sources */,
+				E4B35EE10317C87FC9B75386E98F827D /* ANSNSNumberToCGFloatValueTransformer.m in Sources */,
+				3172475FA918660FCA777E5CBE69A260 /* ANSObjectIdentityProvider.m in Sources */,
+				2869E4EE8E383DE5649EAA526FD53917 /* ANSObjectSelector.m in Sources */,
+				EA0B4B1ABD9FB0B26CF011C055B0B051 /* ANSObjectSerializer.m in Sources */,
+				3EBCBFAB9ED58FBD8D05A2F4075ABF08 /* ANSObjectSerializerConfig.m in Sources */,
+				5D550483A74DDE6888CB24A7FFBC663D /* ANSObjectSerializerContext.m in Sources */,
+				9D23B35B3253CFDB52D1C2B8DE43F8DD /* ANSOpenURLAutoTrack.m in Sources */,
+				6F9F93CCD85DFE080827E79CFAB1EE96 /* ANSPageAutoTrack.m in Sources */,
+				B9176193EC1BD2D1B772B4D11526BA87 /* ANSPassThroughValueTransformer.m in Sources */,
+				A58C74EDD20A527C7017471A0141284A /* ANSPropertyDescription.m in Sources */,
+				11EB14AFC22B1EFBDA67D22D148D2892 /* ANSProtocolSwizzler.m in Sources */,
+				806A12F34F4127CE0E730832F3BD060B /* ANSQueue.m in Sources */,
+				616300C7D4416890249019655A25972E /* ANSReachability.m in Sources */,
+				9ED214D3DA083C14438D9FAFD27BD8FF /* ANSSequenceGenerator.m in Sources */,
+				9592EDBC04B83E9B0EC261E3EB39D69E /* ANSServerStrategy.m in Sources */,
+				F4F658527055D8EDFCB6D246948861B6 /* ANSSession.m in Sources */,
+				1EFE54852A24E7D51ECE1CD8208A71DA /* ANSStrategyManager.m in Sources */,
+				1BF5F18BD745DD8AB18A5909857777EF /* ANSSwizzler.m in Sources */,
+				CD43CD72D0346A64B033FBC3C41CCBED /* ANSSwizzlerNoConflict.m in Sources */,
+				9D19F29193A58995CD2E74132949DB0B /* ANSTelephonyNetwork.m in Sources */,
+				79C9B41233A07529F98EAF70CEB84CD6 /* ANSTimeCheckManager.m in Sources */,
+				97A31281842BD8C9A4DC145EBDEBC7B0 /* ANSTypeDescription.m in Sources */,
+				B52BA1CC2454A7FA84D6ECD9EEBF145E /* ANSUIColorToNSStringValueTransformer.m in Sources */,
+				99B9240CFFC181569C1FBFB055CC07BF /* ANSUIControlBinding.m in Sources */,
+				5AEA68F37E255619C35F50AB6C3F73FB /* ANSUIEdgeInsetsToNSDictionaryValueTransformer.m in Sources */,
+				9E84B58D0FA8A241213D499917E879B1 /* ANSUIFontToNSDictionaryValueTransformer.m in Sources */,
+				F9E08FE3B04712C33E2A9374E0914303 /* ANSUIImageToNSDictionaryValueTransformer.m in Sources */,
+				58C3A431BDFDA7EECE8DDBB4E3D9526F /* ANSUITableViewBinding.m in Sources */,
+				2F6E0A2CEBE75B6E34DC364C89614B33 /* ANSUncaughtExceptionHandler.m in Sources */,
+				22DCC97D0804C597C05FC37639175412 /* ANSUploadManager.m in Sources */,
+				53E225A3BAB1C1E2E58F3F8306193F47 /* ANSUserStrategy.m in Sources */,
+				F1B8E538D4B8785DFF988197BF2A8791 /* ANSUtil.m in Sources */,
+				BBC021D551378939414A0BD5302D24E4 /* ANSVisualSDK.m in Sources */,
+				9E9224E770E47CB32BC1ED1CB7774B58 /* ANSWebSocket.m in Sources */,
+				96FAE064C83D01EA29E2BDC7D7D80762 /* NSInvocation+ANSHelper.m in Sources */,
+				30A971D025E89828E7EA31C3B5830C5C /* NSObject+ANSSwizzling.m in Sources */,
+				35B3DEC9A62038B215DA379E185B6AC5 /* NSString+ANSDBEncrypt.m in Sources */,
+				53CD8130EE8C8B3ED41DBF502467482C /* NSString+ANSMD5.m in Sources */,
+				8BCFFD610EE461B56C39EF3A0003C90D /* NSThread+ANSHelper.m in Sources */,
+				DE0EDBDFBDD26E63C98AFCB01926B4E3 /* UIView+ANSAllBuryIdentifer.m in Sources */,
+				4DDD7F27CC4A7B1B98D2B0B9A12C90A9 /* UIView+ANSAutoTrack.m in Sources */,
+				0555A2A0FC5349599D8BDEAA736351BE /* UIView+ANSHelper.m in Sources */,
+				4E90048CA4955AB17927DA78901D4D5A /* UIView+ANSPathUtils.m in Sources */,
+				38C25049FC74838BA523C358FC9E832B /* UIViewController+ANSSwizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E9B14766DF723C29F056F8E089DD5AF /* Sources */ = {
+		53C5A81AEAEFE8854F7761455A0C314E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C9F8DD61B83B07D6E9DFB030130CB18 /* AnalysysAgent.m in Sources */,
-				8763BEA23484CDFED7C933D4A0713207 /* AnalysysAgentConfig.m in Sources */,
-				A830FE87072C54CF99AB8DF5166D887A /* AnalysysLogger.m in Sources */,
-				D81D69D4A0B5213DA7C533542AED77D0 /* AnalysysPush.m in Sources */,
-				FE01CB1941BF159911FFA143B0A6F8D3 /* AnalysysSDK-dummy.m in Sources */,
-				95866DCBEAEA44FDF2CB857E3CB1EEA2 /* AnalysysSDK.m in Sources */,
-				34557BA70AA52419C06E5B10C7D611EA /* AnalysysVisual.m in Sources */,
-				B7BDE405E8A4C93CCDC5D655ABE20CE6 /* ANSAbstractABTestDesignerMessage.m in Sources */,
-				5E4CB5DD953128392C32FDB2DB0647CF /* ANSABTestDesignerConnection.m in Sources */,
-				771DAAFDCBC6C530774059C9F928ED29 /* ANSABTestDesignerDeviceInfoRequestMessage.m in Sources */,
-				75BE3087B05801EB8A9755874C8ED0A2 /* ANSABTestDesignerDeviceInfoResponseMessage.m in Sources */,
-				AAFB89F63F00C31250C43BFB47404980 /* ANSABTestDesignerSnapshotRequestMessage.m in Sources */,
-				FEBCEE4788DE25CC7B1260D6003BC0C6 /* ANSABTestDesignerSnapshotResponseMessage.m in Sources */,
-				0E3E87B5B9BDD975CD5E98CF6DF13586 /* ANSAESAlgorithm.m in Sources */,
-				2BA305362DDD29B739A82E23586A05D2 /* ANSAllBuryPoint.m in Sources */,
-				158266C21C2FEC888778AE36133193B1 /* ANSAllBuryPointModel.m in Sources */,
-				E898169B858A0835A5FB89BF530CF507 /* ANSApplicationStateSerializer.m in Sources */,
-				FB0C40FEAB2FA553841756EE5D22A572 /* ANSAppStartSource.m in Sources */,
-				3143C094B815891BF1B9C5A7B982001C /* ANSBaseModel.m in Sources */,
-				E4558DA810DA6A72964059D248848676 /* ANSBOOLToNSNumberValueTransformer.m in Sources */,
-				276F6C3979E01A543A1EA9A3AA08E17B /* ANSBundleUtil.m in Sources */,
-				2A5CB8B6BFC7AF214DA5A81D3EF2E9DE /* ANSCATransform3DToNSDictionaryValueTransformer.m in Sources */,
-				A7C65523BE00262C32A38D114BA820FF /* ANSCGAffineTransformToNSDictionaryValueTransformer.m in Sources */,
-				9693C4AF0A5EF1851FD3335024A91C39 /* ANSCGColorRefToNSStringValueTransformer.m in Sources */,
-				FDCB4CAF9FC99BFC1B6FC33CA26C08BD /* ANSCGPointToNSDictionaryValueTransformer.m in Sources */,
-				7A05D7BE70CB1CFFBF201F4E7500DA67 /* ANSCGRectToNSDictionaryValueTransformer.m in Sources */,
-				9DD1D03428E9B204F08200C6B62E1EB1 /* ANSCGSizeToNSDictionaryValueTransformer.m in Sources */,
-				F0887C5B237740F2407B4AEAE97AD2D7 /* ANSClassDescription.m in Sources */,
-				42411F677C2630EB6B6A3DF7B9C728D7 /* ANSConst.m in Sources */,
-				33D8586962F0C289C3CB73385D34F00B /* ANSControllerUtils.m in Sources */,
-				AA8D4BA276358F821C3812D26D317483 /* ANSDatabase.m in Sources */,
-				456AD1F25DBC64C7E19AC41DB70F7E46 /* ANSDataCheck.m in Sources */,
-				916E590E598D3E647199E2371AC95B06 /* ANSDataCheckLog.m in Sources */,
-				5A566E2FE0234851D4D027D375C066D0 /* ANSDataCheckRouter.m in Sources */,
-				05D92A91336C74438E9088970D28AE7C /* ANSDataConfig.m in Sources */,
-				3C153797864CEEBC1ECFC1433ABC2FF3 /* ANSDataEncrypt.m in Sources */,
-				AF463C3D0EF900CACA82467D100734ED /* ANSDataFunc.m in Sources */,
-				6C7C8278CAC4B2F782154CA424DD3CF4 /* ANSDataProcessing.m in Sources */,
-				E067EC5F1DB9048B96BB05933A7AB0D7 /* ANSDateUtil.m in Sources */,
-				941FD4ED5827D8687E280F68EADB05D3 /* ANSDefaultStrategy.m in Sources */,
-				E99F1FB1B7EC9497B384173FE2FA56F0 /* ANSDelayStrategy.m in Sources */,
-				1AA45E8E6D221F4FB06E533A0F268CF0 /* ANSDesignerEventBindingRequestMessage.m in Sources */,
-				CA82F831C56D229E10B19C8EFBC353B7 /* ANSDesignerEventBindingResponseMesssage.m in Sources */,
-				2FE35B6A284B7E65ADA69C2630A300CF /* ANSDesignerTrackMessage.m in Sources */,
-				8A9E28F3C8763AB2FF0370E5C864FF93 /* ANSDeviceInfo.m in Sources */,
-				D33ED99D071A3F82172346DD8AC31F59 /* ANSEncryptUtis.m in Sources */,
-				8817CC2B14C4C69845EBED189BD5BE53 /* ANSEnumDescription.m in Sources */,
-				DF02E1EBF3078E6BB7A362F39C7EC3DD /* ANSEventBinding.m in Sources */,
-				26AB1EFE061D58B6FE357A9D1D6698D7 /* ANSFileManager.m in Sources */,
-				C966D68B21ED4D67E4F93A47CAAC8BCB /* ANSGzip.m in Sources */,
-				BA9CD7020F27672E5B37FD5B9FF00321 /* ANSHeatMapAutoTrack.m in Sources */,
-				1623D9E1531524A31D5D7EBFD79EE8D3 /* ANSHeatMapFunc.m in Sources */,
-				A053A89B0F83197C1B14BF04B3DECA9E /* ANSHybrid.m in Sources */,
-				19400C0720984D9B89B72138E092F369 /* ANSJsonUtil.m in Sources */,
-				51372F6E56E8615CA52C191DD0B5A674 /* ANSKeychainItemWrapper.m in Sources */,
-				8505E0C71D1D2166859EEBC6B5A34563 /* ANSKeyNameConst.m in Sources */,
-				2F9001ADFC42232D96F08BB97934BE65 /* ANSLock.m in Sources */,
-				95391408AACEB9158C3BA17C1EFFB930 /* ANSLogParamsUtil.m in Sources */,
-				9AFEB8C927CFA9F3E879B13BF56FF2AA /* ANSMediator.m in Sources */,
-				773C0DF0E469873C28E2A2D90377A1B7 /* ANSModuleConfig.m in Sources */,
-				B8970A08A9D27ED3AC55C5DD0B549E76 /* ANSModuleProcessing.m in Sources */,
-				D2EF5C76CB5B953E8AB0302F0E51B7CD /* ANSNSAttributedStringToNSDictionaryValueTransformer.m in Sources */,
-				0D68C13961147063BB6F9331B1ED74E0 /* ANSNSNumberToCGFloatValueTransformer.m in Sources */,
-				3FB35BD881167ECD74D1063F41CCF643 /* ANSObjectIdentityProvider.m in Sources */,
-				4FACC59F4ECDD6B082F7F57E9DA3C1DE /* ANSObjectSelector.m in Sources */,
-				8429E877093D46F8C836B2E9FC28E117 /* ANSObjectSerializer.m in Sources */,
-				4D344221ED87D168032C16B620B0147D /* ANSObjectSerializerConfig.m in Sources */,
-				CCB37E377DB499223C4FECEBB50CEEE5 /* ANSObjectSerializerContext.m in Sources */,
-				662087295DDD42A84010AE481A2ED477 /* ANSOpenURLAutoTrack.m in Sources */,
-				3589CF8DC06FBBDBE44106B270B0C69F /* ANSPageAutoTrack.m in Sources */,
-				155317D353F3F33219B1810C8BE14FE3 /* ANSPassThroughValueTransformer.m in Sources */,
-				4870A8939020B101C88FF742EBB24F83 /* ANSPropertyDescription.m in Sources */,
-				DF65979691CBC0D554E795490A968AA0 /* ANSProtocolSwizzler.m in Sources */,
-				507B9FDC9FCBA50AA1FB9EDD51B803F7 /* ANSQueue.m in Sources */,
-				9BD609974DFAF7B8785E4DAA5952EE8A /* ANSReachability.m in Sources */,
-				0229E77F8B400D7F70AFC0EB6BAE2898 /* ANSSequenceGenerator.m in Sources */,
-				DEE206B5F7062B03A1E6ED3103FE092A /* ANSServerStrategy.m in Sources */,
-				4551122B9AB5C128EE902CEFD9D3FE47 /* ANSSession.m in Sources */,
-				F3307A6944353BB23263F86452809F6A /* ANSStrategyManager.m in Sources */,
-				FE13AF656AD16C7299437C6E4741FF83 /* ANSSwizzler.m in Sources */,
-				12CDCC530642603C56FA1647CF2AF71A /* ANSSwizzlerNoConflict.m in Sources */,
-				11B35F5C6761C25AB0A255FDC9D0B800 /* ANSTelephonyNetwork.m in Sources */,
-				E8F169666B45B5AE030ECC3EBC061415 /* ANSTimeCheckManager.m in Sources */,
-				B7E136A41127EBCEE83E2F3BF0760973 /* ANSTypeDescription.m in Sources */,
-				C4EE3E199B69036E361820919D4A61DA /* ANSUIColorToNSStringValueTransformer.m in Sources */,
-				B70AEE2CB936DC010A1026F76B95A22A /* ANSUIControlBinding.m in Sources */,
-				0E1121763D73606ACC92B612106FD3BD /* ANSUIEdgeInsetsToNSDictionaryValueTransformer.m in Sources */,
-				4CC4C0ACFA15A70201C507BA51DB195E /* ANSUIFontToNSDictionaryValueTransformer.m in Sources */,
-				3D80A63DC53AC6489EAAD0D52CCD18CC /* ANSUIImageToNSDictionaryValueTransformer.m in Sources */,
-				413B8BD4ED23AB87CC94363D4CE04D0F /* ANSUITableViewBinding.m in Sources */,
-				F960EB1FA5B924F8AE7F4DDB421050C6 /* ANSUncaughtExceptionHandler.m in Sources */,
-				3AA5609079EF63690894C1FB57E911C1 /* ANSUploadManager.m in Sources */,
-				8DB168BEC39275344C50D22C48693244 /* ANSUserStrategy.m in Sources */,
-				EA24A6B87FD12434FBC0A048F7C86C1F /* ANSUtil.m in Sources */,
-				946CBA2D76D3F70B92375E7B5AED8EC8 /* ANSVisualSDK.m in Sources */,
-				F4DF34C3081F69DB0899BE1F2D6C9894 /* ANSWebSocket.m in Sources */,
-				C277C8EEC606960354EEE90D4425B6E4 /* NSInvocation+ANSHelper.m in Sources */,
-				DA196065C5D030D3986E39D9BF303BF3 /* NSObject+ANSSwizzling.m in Sources */,
-				29F14127B13D3863815CF1D33F09DB11 /* NSString+ANSDBEncrypt.m in Sources */,
-				B017D27E4144474F09C4B8DC4DD91B27 /* NSString+ANSMD5.m in Sources */,
-				385E7DBD2DA15D9198F2015B9A4AEB7E /* NSThread+ANSHelper.m in Sources */,
-				A73BBDA55DEE825A6A8D8369E5CB5FFD /* UIView+ANSAllBuryIdentifer.m in Sources */,
-				36649D984ED96210F5E8ECCEF525A276 /* UIView+ANSAutoTrack.m in Sources */,
-				54BEF3F91A1E059650FDE40BF15084A7 /* UIView+ANSHelper.m in Sources */,
-				33389300BD925EFEF65ACB5028E61ED4 /* UIView+ANSPathUtils.m in Sources */,
-				D0DAF34B97F60B1EB005882BCCD58506 /* UIViewController+ANSSwizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83FFCE40E517D7B8F42BC3747038AFD0 /* Sources */ = {
+		93565C4CA706013CC4E710EA4A07842D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9FEDA41EC037F940C2C61C52437A7C8 /* Pods-AnalysysSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2DDBE692A7CC5540B9AEE2BD5B168241 /* PBXTargetDependency */ = {
+		0EE726633859AB5D5ACAB4574526EA5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AnalysysSDK;
 			target = 27AC48BC542282E5ECA00A27D0AB65BD /* AnalysysSDK */;
-			targetProxy = 296E6EFCAF99E17C3E54B8B1B569D741 /* PBXContainerItemProxy */;
+			targetProxy = 1B259A9D728879D6B8E6DED1F55DB4D1 /* PBXContainerItemProxy */;
 		};
-		A1681A79034D8C04DAB15EA31AF7A329 /* PBXTargetDependency */ = {
+		C3A6DD2A631B84818A002682100E4E5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "AnalysysSDK-AnalysysAgent";
 			target = 547D8EEE54833054DDDD9EE780146750 /* AnalysysSDK-AnalysysAgent */;
-			targetProxy = 268657486B2A2AD54A6C5C589904CEE0 /* PBXContainerItemProxy */;
+			targetProxy = 8BBC401D79B5253F511A629C4AB54419 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03D57F4E9142D16ADF35273C8A1E8FD0 /* Debug */ = {
+		33B0FFEF4A527311DE01D41B402D6E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4964AC016CE76641E19C463DA0F32A /* AnalysysSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnalysysSDK/AnalysysSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnalysysSDK/AnalysysSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnalysysSDK/AnalysysSDK.modulemap";
+				PRODUCT_MODULE_NAME = AnalysysSDK;
+				PRODUCT_NAME = AnalysysSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6419A2A659958447F6463DF90416912D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 717CDF3A805C89630BDDB9CE4EA9004E /* Pods-AnalysysSDK_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1450,54 +1486,22 @@
 			};
 			name = Debug;
 		};
-		4156BD92B812A1137608C3E6D6771A9B /* Release */ = {
+		78016F8B7D0FBC164C176B82CBC6E5AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C4964AC016CE76641E19C463DA0F32A /* AnalysysSDK.release.xcconfig */;
+			baseConfigurationReference = 0A165DA562545B40CD8C6FC12478540C /* AnalysysSDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AnalysysSDK";
 				IBSC_MODULE = AnalysysSDK;
 				INFOPLIST_FILE = "Target Support Files/AnalysysSDK/ResourceBundle-AnalysysAgent-AnalysysSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = AnalysysAgent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
-		};
-		59AC14BEA85DE939D411761FCA6ED40E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C4964AC016CE76641E19C463DA0F32A /* AnalysysSDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AnalysysSDK/AnalysysSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnalysysSDK/AnalysysSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnalysysSDK/AnalysysSDK.modulemap";
-				PRODUCT_MODULE_NAME = AnalysysSDK;
-				PRODUCT_NAME = AnalysysSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1623,7 +1627,55 @@
 			};
 			name = Debug;
 		};
-		B961116E9768AE1682CBA9204C403A78 /* Release */ = {
+		E5BCA6774FC32AF7A255DBEF68FB08D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A165DA562545B40CD8C6FC12478540C /* AnalysysSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnalysysSDK/AnalysysSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnalysysSDK/AnalysysSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnalysysSDK/AnalysysSDK.modulemap";
+				PRODUCT_MODULE_NAME = AnalysysSDK;
+				PRODUCT_NAME = AnalysysSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F24154FF6F541B986EAFA3BCC7DB7C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4964AC016CE76641E19C463DA0F32A /* AnalysysSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AnalysysSDK";
+				IBSC_MODULE = AnalysysSDK;
+				INFOPLIST_FILE = "Target Support Files/AnalysysSDK/ResourceBundle-AnalysysAgent-AnalysysSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = AnalysysAgent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FE66C2931ED9BAD5537DB542FDBA4E90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F2FBD43E843FA83E7F72DADE0A6D9C5 /* Pods-AnalysysSDK_Example.release.xcconfig */;
 			buildSettings = {
@@ -1657,66 +1709,9 @@
 			};
 			name = Release;
 		};
-		D6C096423736138F68D564435713C66F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A165DA562545B40CD8C6FC12478540C /* AnalysysSDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AnalysysSDK/AnalysysSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnalysysSDK/AnalysysSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnalysysSDK/AnalysysSDK.modulemap";
-				PRODUCT_MODULE_NAME = AnalysysSDK;
-				PRODUCT_NAME = AnalysysSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DB08CBEE5165AEB32650973ECEAA0BCB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A165DA562545B40CD8C6FC12478540C /* AnalysysSDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AnalysysSDK";
-				IBSC_MODULE = AnalysysSDK;
-				INFOPLIST_FILE = "Target Support Files/AnalysysSDK/ResourceBundle-AnalysysAgent-AnalysysSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = AnalysysAgent;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19335A47B6311E7D86AB09031D7F2969 /* Build configuration list for PBXNativeTarget "Pods-AnalysysSDK_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				03D57F4E9142D16ADF35273C8A1E8FD0 /* Debug */,
-				B961116E9768AE1682CBA9204C403A78 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1726,20 +1721,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D5F2280A264CB131E115550589B01FC /* Build configuration list for PBXNativeTarget "AnalysysSDK" */ = {
+		7BCABC452006D4CDDAC423B61B3B1F9E /* Build configuration list for PBXNativeTarget "AnalysysSDK-AnalysysAgent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6C096423736138F68D564435713C66F /* Debug */,
-				59AC14BEA85DE939D411761FCA6ED40E /* Release */,
+				78016F8B7D0FBC164C176B82CBC6E5AF /* Debug */,
+				F24154FF6F541B986EAFA3BCC7DB7C6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA7F64E798E8815BD103AB8F1CD5D459 /* Build configuration list for PBXNativeTarget "AnalysysSDK-AnalysysAgent" */ = {
+		E17A9DCB7A210DB3C2AA3CFDC7182ABC /* Build configuration list for PBXNativeTarget "AnalysysSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB08CBEE5165AEB32650973ECEAA0BCB /* Debug */,
-				4156BD92B812A1137608C3E6D6771A9B /* Release */,
+				E5BCA6774FC32AF7A255DBEF68FB08D2 /* Debug */,
+				33B0FFEF4A527311DE01D41B402D6E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F417EF3CC08442EB92A8D3B5749A78B9 /* Build configuration list for PBXNativeTarget "Pods-AnalysysSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6419A2A659958447F6463DF90416912D /* Debug */,
+				FE66C2931ED9BAD5537DB542FDBA4E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

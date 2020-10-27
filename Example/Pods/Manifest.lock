@@ -1,5 +1,5 @@
 PODS:
-  - AnalysysSDK (4.4.7)
+  - AnalysysSDK (4.5.3)
 
 DEPENDENCIES:
   - AnalysysSDK (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AnalysysSDK: f42c118b09fe45201a10e23b456d1c8aad5a86f2
+  AnalysysSDK: 516dc3ff88e035c72a8979aa392f733f6d510ca2
 
 PODFILE CHECKSUM: da7229657dc076e7537b345ed20f8a59a9b64d7b
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3
