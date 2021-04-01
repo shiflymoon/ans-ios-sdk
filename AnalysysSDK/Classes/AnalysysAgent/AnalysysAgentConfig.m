@@ -18,6 +18,7 @@
         _autoInstallation = NO;
         _allowTimeCheck = NO;
         _maxDiffTimeInterval = 30;
+        _autoTrackDeviceId = NO;
     }
     return self;
 }
@@ -34,6 +35,8 @@
 - (void)setMaxDiffTimeInterval:(NSUInteger)maxDiffTimeInterval {
     if (maxDiffTimeInterval < 0) {
         _maxDiffTimeInterval = 30;
+    } else {
+        _maxDiffTimeInterval = maxDiffTimeInterval;
     }
 }
 

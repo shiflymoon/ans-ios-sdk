@@ -12,12 +12,36 @@
 
 @class AnalysysAgentConfig;
 
+@protocol EventDataDelegate <NSObject>
+
+@optional
+
+/// 接收到用户属性回调
+/// @param key 属性 key 值
+/// @param value 属性 value 值
+- (void)onUserProfile:(NSString *)key value:(NSString *)value;
+
+/// 接收到事件回调
+/// @param eventData 回调数据
+- (void)onEventDataReceived:(id)eventData;
+
+@end
+
 @interface AnalysysSDK : NSObject
 
 
 + (instancetype)sharedManager;
 
 @property (nonatomic, assign) BOOL isBackgroundActive;  //  是否后台激活
+@property (nonatomic, assign) long long appDuration;    //  App本次运行时长
+@property (nonatomic, weak) id<EventDataDelegate> delegate; // 事件监听代理
+
+/**
+注册事件监听对象
+
+@param observerListener 事件监听对象
+*/
+- (void)setObserverListener:(id)observerListener;
 
 /**
  通过配置初始化SDK
@@ -47,13 +71,6 @@
  设置线上请求埋点配置的服务器地址
  */
 - (void)setVisitorConfigURL:(NSString *)configURL;
-
-/**
- 是否采集用户点击坐标
- 
- @param autoTrack YES/NO
- */
-- (void)setAutomaticHeatmap:(BOOL)autoTrack;
 
 
 #pragma mark - SDK发送策略
@@ -87,13 +104,14 @@
  */
 - (void)flush;
 
+/// 设置数据网络上传策略
+/// @param networkType 网络类型
+- (void)setUploadNetworkType:(AnalysysNetworkType)networkType;
+    
+/// 清理数据库缓存
+- (void)cleanDBCache;
+
 #pragma mark - 点击事件
-
-
-/**
- 热图事件
- */
-- (void)trackHeatMapWithSDKProperties:(NSDictionary *)sdkProperties;
 
 /**
  添加事件及附加属性
@@ -138,6 +156,13 @@
 - (void)setIgnoredAutomaticCollectionControllers:(NSArray<NSString *> *)controllers;
 
 #pragma mark - 热图模块儿接口
+
+/**
+ 是否采集用户点击坐标
+ 
+ @param autoTrack YES/NO
+ */
+- (void)setAutomaticHeatmap:(BOOL)autoTrack;
 
 /**
  忽略部分页面上所有的点击事件
@@ -299,6 +324,11 @@
 #pragma mark - other
 
 /**
+ 热图事件
+ */
+- (void)trackHeatMapWithSDKProperties:(NSDictionary *)sdkProperties;
+
+/**
  页面是否忽略了自动采集
  
  @param className 类名
@@ -319,13 +349,6 @@
  @return bool
 */
 - (BOOL)hasPageViewWhiteList;
-
-/**
- App运行时长
-
- @return 时长
- */
-- (NSNumber *)appDuration;
 
 /**
  当前用户标识

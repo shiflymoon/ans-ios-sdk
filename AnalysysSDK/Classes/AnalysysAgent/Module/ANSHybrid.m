@@ -16,7 +16,6 @@
 #import "ANSLock.h"
 
 #import "AnalysysSDK.h"
-#import "ANSQueue.h"
 #import "ANSDataCheckLog.h"
 #import "ANSDataCheckRouter.h"
 
@@ -90,14 +89,11 @@ static NSString *ANSUserAgentId = @"UserAgent";
     dispatch_block_t block = ^(){
         NSString *ansUserAgent = [ANSFileManager userDefaultValueWithKey:ANSUserAgentId];
         if (ansUserAgent) {
-            UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectZero];
-            NSString *userAgent = [webView stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
-            userAgent = [userAgent stringByReplacingOccurrencesOfString:ANSHybridId withString:@""];
+            NSString *userAgent = [ansUserAgent stringByReplacingOccurrencesOfString:ANSHybridId withString:@""];
             NSDictionary *userAgentDict = @{ANSUserAgentId: userAgent};
             ANSUserDefaultsLock();
             [[NSUserDefaults standardUserDefaults] registerDefaults:userAgentDict];
             ANSUserDefaultsUnlock();
-            webView = nil;
         }
     };
     if ([[NSThread currentThread] isMainThread]) {
@@ -111,36 +107,59 @@ static NSString *ANSUserAgentId = @"UserAgent";
 
 /** 设置webview agent标识，供hybrid使用 */
 - (void)addUserAgent:(id)webView {
+    dispatch_block_t block = ^(){
+        NSString *ansUserAgent = [ANSFileManager userDefaultValueWithKey:ANSUserAgentId];
+        if (ansUserAgent == nil || [ansUserAgent rangeOfString:ANSHybridId].location == NSNotFound) {
+            [self WKWebView:webView uaBlock:^(NSString *userAgent) {
+                [self setUserAgent:userAgent WKWebView:webView];
+            }];
+        }
+    };
+    if ([[NSThread currentThread] isMainThread]) {
+        block();
+    } else {
+        dispatch_async(dispatch_get_main_queue(), block);
+    }
+}
+
+//  获取WKWebView的UA
+- (void)WKWebView:(id)webView uaBlock:(void(^)(NSString *))uaBlock {
     @try {
-        dispatch_block_t block = ^(){
-            NSString *ansUserAgent = [ANSFileManager userDefaultValueWithKey:ANSUserAgentId];
-            if (ansUserAgent == nil || [ansUserAgent rangeOfString:ANSHybridId].location == NSNotFound) {
-                UIWebView *web = [[UIWebView alloc] initWithFrame:CGRectZero];
-                NSString *userAgent = [web stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
-                userAgent = [userAgent stringByAppendingString:ANSHybridId];
-                NSDictionary *userAgentDict = @{ANSUserAgentId: userAgent};
-                //  回写
-                ANSUserDefaultsLock();
-                [[NSUserDefaults standardUserDefaults] registerDefaults:userAgentDict];
-                ANSUserDefaultsUnlock();
-                web = nil;
-                
-                //  WKWebView 需要设置 setCustomUserAgent:
-                SEL selector = NSSelectorFromString(@"setCustomUserAgent:");
-                if ([webView respondsToSelector:selector]) {
-                    IMP imp = [webView methodForSelector:selector];
-                    void *(*func)(id, SEL, NSString*) = (void *)imp;
-                    func(webView, selector, userAgent);
-                }
+        if ([webView isKindOfClass:NSClassFromString(@"WKWebView")]) {
+            SEL evaluateSelector = NSSelectorFromString(@"evaluateJavaScript:completionHandler:");
+            if (evaluateSelector) {
+                typedef void(^CompletionBlock)(id, NSError *);
+                CompletionBlock completionHandler = ^(id response, NSError *error) {
+                    //                NSLog(@"response:%@ error:%@",response, error.description);
+                    if (response && [response isKindOfClass:NSString.class]) {
+                        uaBlock(response);
+                    }
+                };
+                IMP evaluateImp = [webView methodForSelector:evaluateSelector];
+                void *(*func)(id, SEL, NSString*, CompletionBlock) = (void *(*)(id, SEL, NSString *, CompletionBlock))evaluateImp;
+                func(webView, evaluateSelector, @"navigator.userAgent", completionHandler);
             }
-        };
-        if ([[NSThread currentThread] isMainThread]) {
-            block();
-        } else {
-            dispatch_async(dispatch_get_main_queue(), block);
         }
     } @catch (NSException *exception) {
         
+    }
+}
+
+/** 更新本地及WKWebView的UA */
+- (void)setUserAgent:(NSString *)userAgent WKWebView:(id)webView {
+    userAgent = [userAgent stringByAppendingString:ANSHybridId];
+    NSDictionary *userAgentDict = @{ANSUserAgentId: userAgent};
+    
+    ANSUserDefaultsLock();
+    [[NSUserDefaults standardUserDefaults] registerDefaults:userAgentDict];
+    ANSUserDefaultsUnlock();
+    
+    //  WKWebView 需要设置 setCustomUserAgent:
+    SEL selector = NSSelectorFromString(@"setCustomUserAgent:");
+    if ([webView respondsToSelector:selector]) {
+        IMP imp = [webView methodForSelector:selector];
+        void *(*func)(id, SEL, NSString*) = (void *)imp;
+        func(webView, selector, userAgent);
     }
 }
 
@@ -162,15 +181,10 @@ static NSString *ANSUserAgentId = @"UserAgent";
 /** iOS 回调 JS */
 - (void)jsCallBackMethod:(NSString *)methodStr withWebView:(id)webView {
     methodStr = [[methodStr stringByReplacingOccurrencesOfString:@"\n" withString:@""] stringByReplacingOccurrencesOfString:@" " withString:@""];
-    if ([webView isKindOfClass:[UIWebView class]]) {
-        [webView stringByEvaluatingJavaScriptFromString:methodStr];
-    } else if ([webView isKindOfClass:NSClassFromString(@"WKWebView")]) {
+    if ([webView isKindOfClass:NSClassFromString(@"WKWebView")]) {
         SEL evaluateSelector = NSSelectorFromString(@"evaluateJavaScript:completionHandler:");
         if (evaluateSelector) {
             typedef void(^CompletionBlock)(id, NSError *);
-//            CompletionBlock completionHandler = ^(id response, NSError *error) {
-//                NSLog(@"response:%@ error:%@",response, error.description);
-//            };
             IMP evaluateImp = [webView methodForSelector:evaluateSelector];
             void *(*func)(id, SEL, NSString *, CompletionBlock) = (void *(*)(id, SEL, NSString *, CompletionBlock))evaluateImp;
             func(webView, evaluateSelector, methodStr, nil);
@@ -322,7 +336,13 @@ static NSString *ANSUserAgentId = @"UserAgent";
 
 /** 身份关联 */
 - (void)alias:(NSArray *)param {
-    if (param.count == 2) {
+    if (param.count == 1) {
+        id aliasId = param[0];
+        if ([aliasId isKindOfClass:[NSString class]]) {
+            [AnalysysAgent alias:aliasId];
+            return;
+        }
+    } else if (param.count == 2) {
         id aliasId = param[0];
         if ([aliasId isKindOfClass:[NSString class]]) {
             id originalId = param[1];
@@ -335,7 +355,7 @@ static NSString *ANSUserAgentId = @"UserAgent";
     ANSBriefWarning(@"Hybrid: alias method must have 2 parameter.");
 }
 
-- (void)getDistinctId:(NSArray *)params webView:(UIWebView *)webView {
+- (void)getDistinctId:(NSArray *)params webView:(id)webView {
     NSString *distinctId = [AnalysysAgent getDistinctId];
     NSString *jsMethod;
     if (distinctId) {
@@ -456,71 +476,73 @@ static NSString *ANSUserAgentId = @"UserAgent";
     [AnalysysAgent reset];
 }
 
+/** 预置属性*/
+- (void)getPresetProperties:(NSArray *)param webView:(id)webView {
+    NSDictionary *presetProperties = [[AnalysysSDK sharedManager] getPresetProperties];
+    NSString *jsMethod;
+    if (presetProperties) {
+        NSString *jsonStr = [self jsonStringWithobject:presetProperties];
+        jsMethod = [NSString stringWithFormat:@"%@('%@')",param.lastObject, jsonStr];
+    } else {
+        jsMethod = [NSString stringWithFormat:@"%@('')",param.lastObject];
+    }
+    [self jsCallBackMethod:jsMethod withWebView:webView];
+}
+
 #pragma mark - hybird通用属性
 
 /** 注册hybird通用属性 */
 - (void)registerHybirdSuperProperties:(NSDictionary *)superProperties {
-    {
-        __block NSDictionary *blockSuperProperties = [superProperties mutableCopy];
-        dispatch_block_t block = ^(){
-            ANSDataCheckLog *checkResult = [ANSDataCheckRouter checkSuperProperties:&blockSuperProperties];
-            if (checkResult && checkResult.resultType <= AnalysysResultSuccess) {
-                ANSBriefWarning(@"%@",[checkResult messageDisplay]);
-                if (blockSuperProperties == nil) {
-                    return;
-                }
-            }
-            ANSPropertyLock();
-            NSDictionary *tmp = [ANSFileManager unarchiveHybridSuperProperties];
-            NSMutableDictionary *hybirdSuperProperty = [NSMutableDictionary dictionaryWithDictionary:tmp];
-            [hybirdSuperProperty addEntriesFromDictionary:blockSuperProperties];
-            BOOL result = [ANSFileManager archiveHybridSuperProperties:hybirdSuperProperty];
-            ANSPropertyUnlock();
-            if (result) {
-                ANSDataCheckLog *checkResult = [[ANSDataCheckLog alloc] init];
-                checkResult.resultType = AnalysysResultSetSuccess;
-                ANSLog(@"%@",[checkResult messageDisplay]);
-            } else {
-                ANSDataCheckLog *checkResult = [[ANSDataCheckLog alloc] init];
-                checkResult.resultType = AnalysysResultSetFailed;
-                ANSBriefWarning(@"%@",[checkResult messageDisplay]);
-            }
-        };
-        [ANSQueue dispatchAsyncLogSerialQueueWithBlock:block];
+    ANSDataCheckLog *checkResult = [ANSDataCheckRouter checkSuperProperties:&superProperties];
+    if (checkResult && checkResult.resultType <= AnalysysResultSuccess) {
+        ANSBriefWarning(@"%@",[checkResult messageDisplay]);
+        if (superProperties == nil) {
+            return;
+        }
+    }
+    ANSPropertyLock();
+    NSDictionary *tmp = [ANSFileManager unarchiveHybridSuperProperties];
+    NSMutableDictionary *hybirdSuperProperty = [NSMutableDictionary dictionaryWithDictionary:tmp];
+    [hybirdSuperProperty addEntriesFromDictionary:superProperties];
+    BOOL result = [ANSFileManager archiveHybridSuperProperties:hybirdSuperProperty];
+    ANSPropertyUnlock();
+    if (result) {
+        ANSDataCheckLog *checkResult = [[ANSDataCheckLog alloc] init];
+        checkResult.resultType = AnalysysResultSetSuccess;
+        ANSLog(@"%@",[checkResult messageDisplay]);
+    } else {
+        ANSDataCheckLog *checkResult = [[ANSDataCheckLog alloc] init];
+        checkResult.resultType = AnalysysResultSetFailed;
+        ANSBriefWarning(@"%@",[checkResult messageDisplay]);
     }
 }
 
 /** 删除hybird单个通用属性 */
 - (void)unRegisterHybirdSuperProperty:(NSString *)superPropertyName {
-    dispatch_block_t block = ^(){
-        ANSPropertyLock();
-        NSDictionary *tmp = [ANSFileManager unarchiveHybridSuperProperties];
-        NSMutableDictionary *hybirdSuperProperty = [NSMutableDictionary dictionaryWithDictionary:tmp];
-        [hybirdSuperProperty removeObjectForKey:superPropertyName];
-        BOOL result = [ANSFileManager archiveHybridSuperProperties:hybirdSuperProperty];
-        ANSPropertyUnlock();
-        if (result) {
-            ANSDataCheckLog *checkResult = [[ANSDataCheckLog alloc] init];
-            checkResult.value = superPropertyName;
-            checkResult.resultType = AnalysysResultSetSuccess;
-            ANSLog(@"%@",[checkResult messageDisplay]);
-        }
-    };
-    [ANSQueue dispatchAsyncLogSerialQueueWithBlock:block];
+    ANSPropertyLock();
+    NSDictionary *tmp = [ANSFileManager unarchiveHybridSuperProperties];
+    NSMutableDictionary *hybirdSuperProperty = [NSMutableDictionary dictionaryWithDictionary:tmp];
+    [hybirdSuperProperty removeObjectForKey:superPropertyName];
+    BOOL result = [ANSFileManager archiveHybridSuperProperties:hybirdSuperProperty];
+    ANSPropertyUnlock();
+    if (result) {
+        ANSDataCheckLog *checkResult = [[ANSDataCheckLog alloc] init];
+        checkResult.value = superPropertyName;
+        checkResult.resultType = AnalysysResultSetSuccess;
+        ANSLog(@"%@",[checkResult messageDisplay]);
+    }
 }
 
 /** 清除hybird所有通用属性 */
 - (void)clearHybirdSuperProperties {
-    [ANSQueue dispatchAsyncLogSerialQueueWithBlock:^{
-        ANSPropertyLock();
-        BOOL result = [ANSFileManager archiveHybridSuperProperties:[NSDictionary dictionary]];
-        ANSPropertyUnlock();
-        if (result) {
-            ANSDataCheckLog *checkResult = [[ANSDataCheckLog alloc] init];
-            checkResult.resultType = AnalysysResultSetSuccess;
-            ANSLog(@"%@",[checkResult messageDisplay]);
-        }
-    }];
+    ANSPropertyLock();
+    BOOL result = [ANSFileManager archiveHybridSuperProperties:[NSDictionary dictionary]];
+    ANSPropertyUnlock();
+    if (result) {
+        ANSDataCheckLog *checkResult = [[ANSDataCheckLog alloc] init];
+        checkResult.resultType = AnalysysResultSetSuccess;
+        ANSLog(@"%@",[checkResult messageDisplay]);
+    }
 }
 
 

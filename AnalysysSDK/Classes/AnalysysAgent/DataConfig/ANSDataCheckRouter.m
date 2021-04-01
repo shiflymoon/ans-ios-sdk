@@ -64,15 +64,6 @@
 
 + (ANSDataCheckLog *)checkPropertyKey:(NSString *)key value:(id)value type:(ANSPropertyType)type checkRules:(NSArray *)funcList {
     ANSDataCheckLog *checkResult = nil;
-    if (!key && !value) {
-        checkResult = [[ANSDataCheckLog alloc]init];
-        checkResult.keyWords = nil;
-        checkResult.value = nil;
-        checkResult.resultType = AnalysysResultNotNil;
-        checkResult.remarks = @"key = nil,value = nil";
-        return checkResult;
-    }
-    
     if (type == ANSPropertyIncrement) {
         if (value) {
             NSArray *incrementRules = [ANSDataConfig sharedManager].contextInfo[@"profile_increment"][ANSRulesCheckFuncList];
@@ -85,13 +76,14 @@
         }
     }
     
-    for (NSString *func in funcList) {
+    NSArray *list = [funcList copy];
+    for (NSString *func in list) {
         NSArray *array = [func componentsSeparatedByString:@"."];
         if (array.count == 2) {
             Class cls = NSClassFromString(array[0]);
             NSString *funcStr = array[1];
             if (cls) {
-                NSArray *params = key ? (value ? @[key,value] : @[key]) : @[value];
+                NSArray *params = key ? (value ? @[key,value] : @[key]) : (value ? @[value] : @[]);
                 checkResult = (ANSDataCheckLog *)[ANSMediator performTarget:cls action:funcStr params:params];
                 if (checkResult) {
                     break;

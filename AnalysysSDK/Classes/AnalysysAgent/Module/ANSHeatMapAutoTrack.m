@@ -15,7 +15,6 @@
 #import "ANSConst+private.h"
 #import "UIView+ANSAutoTrack.h"
 #import "NSThread+ANSHelper.h"
-#import "ANSQueue.h"
 
 @interface ANSHeatMapAutoTrack()
 
@@ -56,7 +55,7 @@
         if (autoTrack) {
             [ANSSwizzler swizzleSelector:@selector(sendEvent:) onClass:[UIApplication class] withBlock:^(id view, SEL command, UIEvent *event){
                 [[ANSHeatMapAutoTrack sharedManager] ansSentEvent:event];
-            } named:@"ANSSendEvent"];
+            } named:@"ANSSendEvent" order:AnalysysSwizzleOrderBefore];
         } else {
             [ANSSwizzler unswizzleSelector:@selector(sendEvent:) onClass:[UIApplication class] named:@"ANSSendEvent"];
         }
@@ -72,7 +71,6 @@
             if (touch.view == nil) {
                 [self trackHeatMap:touch];
             }
-            [ANSHeatMapAutoTrack sharedManager].currentViewController = [ANSControllerUtils findViewControllerByView:touch.view];
             _beginLocation = [touch locationInView:touch.view];
             _touchView = touch.view;
             _isTouchMoved = NO;
@@ -99,7 +97,7 @@
 }
 
 - (void)trackHeatMap:(UITouch *)touch {
-//    _touchView = _touchView ?: touch.view;
+    //    _touchView = _touchView ?: touch.view;
     if (_touchView == nil) {
         return;
     }
@@ -114,7 +112,8 @@
         _touchView = (UISwitch *)_touchView.nextResponder.nextResponder.nextResponder;
     }
     
-    if ([[ANSControllerUtils systemBuildInClasses] containsObject:self.viewControllerName]) {
+    self.currentViewController = [ANSControllerUtils currentViewController];
+    if (!self.currentViewController || [[ANSControllerUtils systemBuildInClasses] containsObject:NSStringFromClass(self.currentViewController.class)]) {
         return;
     }
     
@@ -127,10 +126,8 @@
     
     //获取当前响应事件的控制器
     if ([self checkIsReport:_touchView withTargat:self.currentViewController]) {
-        [ANSQueue dispatchAsyncLogSerialQueueWithBlock:^{
-            NSDictionary *sdkProperties = [NSDictionary dictionaryWithObjectsAndKeys:self.viewControllerName, ANSPageUrl, nil];
-            [[AnalysysSDK sharedManager] trackHeatMapWithSDKProperties:sdkProperties];
-        }];
+        NSDictionary *sdkProperties = [NSDictionary dictionaryWithObjectsAndKeys:self.viewControllerName, ANSPageUrl, nil];
+        [[AnalysysSDK sharedManager] trackHeatMapWithSDKProperties:sdkProperties];
     } else {
         
     }
@@ -155,8 +152,9 @@
     }
 }
 
-
 - (NSString *)viewControllerName {
-    return [ANSHeatMapAutoTrack sharedManager].currentViewController?NSStringFromClass([[ANSHeatMapAutoTrack sharedManager].currentViewController class]):@"";
+    NSString *vc = NSStringFromClass(self.currentViewController.class);
+    return vc ?: @"";
 }
+
 @end

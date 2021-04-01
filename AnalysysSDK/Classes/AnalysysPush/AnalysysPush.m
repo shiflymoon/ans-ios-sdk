@@ -44,17 +44,6 @@ static NSString * const ANSCampaignKey = @"EGPUSH_CINFO";//  易观推送标识
 
 /** 拼接context */
 + (NSDictionary *)spliceContextWithPushInfo:(NSDictionary *)pushInfo {
-    NSString *cpdStr = @"";
-    @try {
-        cpdStr = [ANSJsonUtil convertToStringWithObject:pushInfo[@"CPD"]];
-        if (cpdStr.length > 0) {
-            cpdStr = [[cpdStr stringByReplacingOccurrencesOfString:@"\n" withString:@""] stringByReplacingOccurrencesOfString:@" " withString:@""];
-        }
-    } @catch (NSException *exception) {
-        ANSDebug(@"xcontextInfo: CPD 非json格式");
-        return nil;
-    }
-    
     NSMutableDictionary *context = [NSMutableDictionary dictionary];
     [context setValue:[NSString stringWithFormat:@"%@",pushInfo[@"campaign_id"]] forKey:ANSUtmCampaignId];
     [context setValue:pushInfo[@"utm_campaign"] forKey:ANSUtmCampaign];
@@ -64,7 +53,7 @@ static NSString * const ANSCampaignKey = @"EGPUSH_CINFO";//  易观推送标识
     [context setValue:pushInfo[@"utm_term"] forKey:ANSUtmTerm];
     [context setValue:pushInfo[@"ACTIONTYPE"] forKey:ANSUtmActionType];
     [context setValue:pushInfo[@"ACTION"] forKey:ANSUtmAction];
-    [context setValue:cpdStr forKey:ANSUtmCpd];
+    [context setValue:pushInfo[@"CPD"] forKey:ANSUtmCpd];
     return context;
 }
 
@@ -93,24 +82,27 @@ static NSString * const ANSCampaignKey = @"EGPUSH_CINFO";//  易观推送标识
 - (NSDictionary *)parseAnalysysPushInfo:(id)userInfo {
     _isContainAnsPush = NO;
     _ansPushInfo = nil;
-    
-    if ([userInfo isKindOfClass:[NSString class]]) {
-        NSString *pushStr = (NSString *)userInfo;
-        if ([pushStr rangeOfString:ANSCampaignKey].location != NSNotFound) {
-            NSDictionary *pushInfo = [ANSJsonUtil convertToMapWithString:pushStr];
-            if (pushInfo) {
-                [self parseCampaignWithPushInfo:pushInfo];
+    @try {
+        if ([userInfo isKindOfClass:[NSString class]]) {
+            NSString *pushStr = (NSString *)userInfo;
+            if ([pushStr rangeOfString:ANSCampaignKey].location != NSNotFound) {
+                NSDictionary *pushInfo = [ANSJsonUtil convertToMapWithString:pushStr];
+                if (pushInfo) {
+                    [self parseCampaignWithPushInfo:pushInfo];
+                }
             }
+        } else if ([userInfo isKindOfClass:[NSDictionary class]]) {
+            NSDictionary *remotePushInfo = (NSDictionary *)userInfo;
+            [self parseCampaignWithPushInfo:remotePushInfo];
         }
-    } else if ([userInfo isKindOfClass:[NSDictionary class]]) {
-        NSDictionary *remotePushInfo = (NSDictionary *)userInfo;
-        [self parseCampaignWithPushInfo:remotePushInfo];
+        
+        if ([_ansPushInfo isKindOfClass:[NSString class]]) {
+            _ansPushInfo = [ANSJsonUtil convertToMapWithString:_ansPushInfo];
+        }
+        return _ansPushInfo;
+    } @catch (NSException *exception) {
+        return nil;
     }
-    
-    if ([_ansPushInfo isKindOfClass:[NSString class]]) {
-        _ansPushInfo = [ANSJsonUtil convertToMapWithString:_ansPushInfo];
-    }
-    return _ansPushInfo;
 }
 
 /** 判断推送信息中是否包含活动信息 */
@@ -147,9 +139,9 @@ static NSString * const ANSCampaignKey = @"EGPUSH_CINFO";//  易观推送标识
 - (void)openUrlStr:(NSString *)urlStr {
     NSURL *openURL = [NSURL URLWithString:urlStr];
     if ([[UIApplication sharedApplication] canOpenURL:openURL]) {
-        if ([UIDevice currentDevice].systemVersion.floatValue >= 9.0) {
+        if (@available(iOS 9.0, *)) {
             SFSafariViewController *safari = [[SFSafariViewController alloc] initWithURL:openURL];
-            [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:safari animated:YES completion:nil];
+            [[ANSUtil currentKeyWindow].rootViewController presentViewController:safari animated:YES completion:nil];
         } else {
             [[UIApplication sharedApplication] openURL:openURL];
         }

@@ -32,7 +32,7 @@ static inline NSString * AnsLogSring(NSString *format, ...) {
 }
 
 - (NSString *)messageDisplay {
-    NSString * message = nil;
+    NSString *message = @"";
     if (self.resultType == AnalysysResultDefault) {
         message = AnsLogSring(@"%@",self.remarks);
     } else if (self.resultType == AnalysysResultSetSuccess) {
@@ -58,12 +58,18 @@ static inline NSString * AnsLogSring(NSString *format, ...) {
     } else if (self.resultType == AnalysysResultPropertyValueFixed) {
         message = AnsLogSring(@"(%@) is invalid.", [self substringText:[self.value description]]);
     }
-    return message;
+    return [message copy];
 }
 
-- (NSString *)substringText:(NSString *)text {
-    if (text.length > ANSPrintLogLength) {
-        return [NSString stringWithFormat:@"%@...",[text substringToIndex:ANSPrintLogLength]];
+- (NSString *)substringText:(id)text {
+    if (text == nil) {
+        return @"";
+    }
+    if ([text isKindOfClass:NSString.class]) {
+        NSString *string = (NSString*)text;
+        if (string.length > ANSPrintLogLength) {
+            return [NSString stringWithFormat:@"%@...",[text substringToIndex:ANSPrintLogLength]];
+        }
     }
     return text;
 }

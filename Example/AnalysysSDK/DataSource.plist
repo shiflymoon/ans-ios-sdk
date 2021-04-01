@@ -43,6 +43,12 @@
 				<key>backgroundColor</key>
 				<string>#A9A9A9</string>
 			</dict>
+			<dict>
+				<key>interface</key>
+				<string>清理数据库</string>
+				<key>backgroundColor</key>
+				<string>#A9A9A9</string>
+			</dict>
 		</array>
 	</dict>
 	<dict>
@@ -262,12 +268,6 @@
 		<array>
 			<dict>
 				<key>interface</key>
-				<string>UIWebView</string>
-				<key>backgroundColor</key>
-				<string>#1E90FF</string>
-			</dict>
-			<dict>
-				<key>interface</key>
 				<string>WKWebView</string>
 				<key>backgroundColor</key>
 				<string>#1E90FF</string>
@@ -295,6 +295,19 @@
 			<dict>
 				<key>interface</key>
 				<string>复制粘贴板</string>
+				<key>backgroundColor</key>
+				<string>#A9A9A9</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>调整数据上传网络</string>
+		<key>subArray</key>
+		<array>
+			<dict>
+				<key>interface</key>
+				<string>修改上传网络</string>
 				<key>backgroundColor</key>
 				<string>#A9A9A9</string>
 			</dict>

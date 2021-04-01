@@ -51,6 +51,10 @@
 
 @implementation AnalysysAgent
 
++ (void)setObserverListener:(id)observerListener {
+    [[AnalysysSDK sharedManager] setObserverListener:observerListener];
+}
+
 + (void)startWithConfig:(AnalysysAgentConfig *)config {
     [[AnalysysSDK sharedManager] startWithConfig:config];
 }
@@ -75,10 +79,6 @@
 
 + (void)setVisitorConfigURL:(NSString *)configURL {
     [[AnalysysSDK sharedManager] setVisitorConfigURL:configURL];
-}
-
-+ (void)setAutomaticHeatmap:(BOOL)autoTrack {
-    [[AnalysysSDK sharedManager] setAutomaticHeatmap:autoTrack];
 }
 
 #pragma mark - SDK发送策略
@@ -111,6 +111,14 @@
     [[AnalysysSDK sharedManager] flush];
 }
 
++ (void)setUploadNetworkType:(AnalysysNetworkType)networkType {
+    [[AnalysysSDK sharedManager] setUploadNetworkType:networkType];
+}
+    
++ (void)cleanDBCache {
+    [[AnalysysSDK sharedManager] cleanDBCache];
+}
+    
 #pragma mark - 事件
 
 + (void)track:(NSString *)event {
@@ -173,6 +181,10 @@
 }
 
 #pragma mark - 热图模块儿接口
++ (void)setAutomaticHeatmap:(BOOL)autoTrack {
+    [[AnalysysSDK sharedManager] setAutomaticHeatmap:autoTrack];
+}
+
 + (void)setHeatMapBlackListByPages:(NSSet<NSString *> *)controllerNames {
     [[AnalysysSDK sharedManager] setHeatmapIgnoreAutoClickByPage:controllerNames];
 }
@@ -296,9 +308,12 @@
 
 
 #pragma mark - 活动推送效果
++ (void)setPushProvider:(AnalysysPushProvider)provider pushID:(NSString *)pushID {
+    [self setPushID:pushID provider:provider];
+}
 
 /** 设置推送平台及第三方推送标识 */
-+ (void)setPushProvider:(AnalysysPushProvider)provider pushID:(NSString *)pushID {
++ (void)setPushID:(NSString *)pushID provider:(AnalysysPushProvider)provider {
     [[AnalysysSDK sharedManager] setPushProvider:provider pushID:pushID];
 }
 
@@ -309,11 +324,11 @@
 
 /** 追踪活动推广，可回调用户自定义信息 */
 + (void)trackCampaign:(id)userInfo isClick:(BOOL)isClick userCallback:(void(^)(id campaignInfo))userCallback {
-    [[AnalysysSDK sharedManager] trackCampaign:userInfo isClick:isClick userCallback:^(id  _Nonnull campaignInfo) {
-        if (userCallback) {
-            userCallback(campaignInfo);
-        }
-    }];
+        [[AnalysysSDK sharedManager] trackCampaign:userInfo isClick:isClick userCallback:^(id  _Nonnull campaignInfo) {
+            if (userCallback) {
+                userCallback(campaignInfo);
+            }
+        }];
 }
 
 

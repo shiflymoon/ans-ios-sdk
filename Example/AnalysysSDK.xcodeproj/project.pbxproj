@@ -14,8 +14,6 @@
 		48DA23A5233B6C1200FCD7D9 /* DataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48DA23A4233B6C1200FCD7D9 /* DataSource.plist */; };
 		48DA23AD233B6C2700FCD7D9 /* ANSWKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48DA23A7233B6C2600FCD7D9 /* ANSWKWebViewController.xib */; };
 		48DA23AE233B6C2700FCD7D9 /* ANSWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DA23A8233B6C2600FCD7D9 /* ANSWKWebViewController.m */; };
-		48DA23AF233B6C2700FCD7D9 /* ANSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DA23AA233B6C2600FCD7D9 /* ANSWebViewController.m */; };
-		48DA23B0233B6C2700FCD7D9 /* ANSWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48DA23AC233B6C2600FCD7D9 /* ANSWebViewController.xib */; };
 		48DA23C3233B6C3000FCD7D9 /* ANSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DA23B2233B6C3000FCD7D9 /* ANSTextField.m */; };
 		48DA23C4233B6C3000FCD7D9 /* UIView+MGO.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DA23B3233B6C3000FCD7D9 /* UIView+MGO.m */; };
 		48DA23C5233B6C3000FCD7D9 /* ANSTouchId.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DA23B6233B6C3000FCD7D9 /* ANSTouchId.m */; };
@@ -37,10 +35,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E854FFF42414CF3900CA2FBA /* ANSListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E854FFF32414CF3900CA2FBA /* ANSListTableViewController.m */; };
 		E8AAE86A23AC6E540034A5E7 /* ANSCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AAE86923AC6E540034A5E7 /* ANSCaseViewController.m */; };
 		E8AAE86E23AC6E8A0034A5E7 /* ANSTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AAE86C23AC6E890034A5E7 /* ANSTableHeaderFooterView.m */; };
 		E8AAE86F23AC6E8A0034A5E7 /* ANSTableHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8AAE86D23AC6E8A0034A5E7 /* ANSTableHeaderFooterView.xib */; };
-		E8DC8412236054FC00DC0FC6 /* UnitTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC83F5236054FC00DC0FC6 /* UnitTestCase.m */; };
 		E8DC8413236054FC00DC0FC6 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC83F7236054FC00DC0FC6 /* NextViewController.m */; };
 		E8DC8414236054FC00DC0FC6 /* ANSSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC83F8236054FC00DC0FC6 /* ANSSearchTableViewController.m */; };
 		E8DC8415236054FC00DC0FC6 /* ANSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC83FA236054FC00DC0FC6 /* ANSHomeViewController.m */; };
@@ -49,7 +47,6 @@
 		E8DC8418236054FC00DC0FC6 /* ANSDemoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DC83FF236054FC00DC0FC6 /* ANSDemoCollectionViewCell.xib */; };
 		E8DC8419236054FC00DC0FC6 /* ANSDemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DC8400236054FC00DC0FC6 /* ANSDemoTableViewCell.xib */; };
 		E8DC841A236054FC00DC0FC6 /* ANSPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC8401236054FC00DC0FC6 /* ANSPresentViewController.m */; };
-		E8DC841B236054FC00DC0FC6 /* ANSMutiThreadTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC8405236054FC00DC0FC6 /* ANSMutiThreadTestViewController.m */; };
 		E8DC841C236054FC00DC0FC6 /* ANSDemoCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DC8407236054FC00DC0FC6 /* ANSDemoCollectionHeaderView.xib */; };
 		E8DC841E236054FC00DC0FC6 /* ANSDemoCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC840C236054FC00DC0FC6 /* ANSDemoCollectionHeaderView.m */; };
 		E8DC841F236054FC00DC0FC6 /* PageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC840D236054FC00DC0FC6 /* PageDetailViewController.m */; };
@@ -77,10 +74,6 @@
 		48DA23A4233B6C1200FCD7D9 /* DataSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataSource.plist; sourceTree = "<group>"; };
 		48DA23A7233B6C2600FCD7D9 /* ANSWKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSWKWebViewController.xib; sourceTree = "<group>"; };
 		48DA23A8233B6C2600FCD7D9 /* ANSWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSWKWebViewController.m; sourceTree = "<group>"; };
-		48DA23A9233B6C2600FCD7D9 /* ANSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSWebViewController.h; sourceTree = "<group>"; };
-		48DA23AA233B6C2600FCD7D9 /* ANSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSWebViewController.m; sourceTree = "<group>"; };
-		48DA23AB233B6C2600FCD7D9 /* ANSWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSWKWebViewController.h; sourceTree = "<group>"; };
-		48DA23AC233B6C2600FCD7D9 /* ANSWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSWebViewController.xib; sourceTree = "<group>"; };
 		48DA23B2233B6C3000FCD7D9 /* ANSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSTextField.m; sourceTree = "<group>"; };
 		48DA23B3233B6C3000FCD7D9 /* UIView+MGO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MGO.m"; sourceTree = "<group>"; };
 		48DA23B4233B6C3000FCD7D9 /* UIColor+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Transform.h"; sourceTree = "<group>"; };
@@ -119,13 +112,13 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B3A7E7A96F966ABD2947612 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CEE25F8F7FEB44F40A453358 /* Pods-AnalysysSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalysysSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-AnalysysSDK_Example/Pods-AnalysysSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E854FFF22414CF3900CA2FBA /* ANSListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSListTableViewController.h; sourceTree = "<group>"; };
+		E854FFF32414CF3900CA2FBA /* ANSListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSListTableViewController.m; sourceTree = "<group>"; };
 		E8AAE86823AC6E540034A5E7 /* ANSCaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSCaseViewController.h; sourceTree = "<group>"; };
 		E8AAE86923AC6E540034A5E7 /* ANSCaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSCaseViewController.m; sourceTree = "<group>"; };
 		E8AAE86B23AC6E890034A5E7 /* ANSTableHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSTableHeaderFooterView.h; sourceTree = "<group>"; };
 		E8AAE86C23AC6E890034A5E7 /* ANSTableHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSTableHeaderFooterView.m; sourceTree = "<group>"; };
 		E8AAE86D23AC6E8A0034A5E7 /* ANSTableHeaderFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSTableHeaderFooterView.xib; sourceTree = "<group>"; };
-		E8DC83F5236054FC00DC0FC6 /* UnitTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitTestCase.m; sourceTree = "<group>"; };
-		E8DC83F6236054FC00DC0FC6 /* ANSMutiThreadTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSMutiThreadTestViewController.h; sourceTree = "<group>"; };
 		E8DC83F7236054FC00DC0FC6 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		E8DC83F8236054FC00DC0FC6 /* ANSSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSSearchTableViewController.m; sourceTree = "<group>"; };
 		E8DC83F9236054FC00DC0FC6 /* ANSDemoCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSDemoCollectionHeaderView.h; sourceTree = "<group>"; };
@@ -139,8 +132,6 @@
 		E8DC8402236054FC00DC0FC6 /* ANSDemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSDemoCollectionViewCell.h; sourceTree = "<group>"; };
 		E8DC8403236054FC00DC0FC6 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		E8DC8404236054FC00DC0FC6 /* ANSSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSSearchTableViewController.h; sourceTree = "<group>"; };
-		E8DC8405236054FC00DC0FC6 /* ANSMutiThreadTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSMutiThreadTestViewController.m; sourceTree = "<group>"; };
-		E8DC8406236054FC00DC0FC6 /* UnitTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitTestCase.h; sourceTree = "<group>"; };
 		E8DC8407236054FC00DC0FC6 /* ANSDemoCollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANSDemoCollectionHeaderView.xib; sourceTree = "<group>"; };
 		E8DC8408236054FC00DC0FC6 /* ANSDemoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSDemoTableViewCell.h; sourceTree = "<group>"; };
 		E8DC840A236054FC00DC0FC6 /* ANSDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSDemoController.h; sourceTree = "<group>"; };
@@ -151,6 +142,7 @@
 		E8DC840F236054FC00DC0FC6 /* ANSDemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSDemoCollectionViewCell.m; sourceTree = "<group>"; };
 		E8DC8410236054FC00DC0FC6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8DC8411236054FC00DC0FC6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8DC8466247796830004902C /* ANSWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSWKWebViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,11 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				48DA23A7233B6C2600FCD7D9 /* ANSWKWebViewController.xib */,
+				E8DC8466247796830004902C /* ANSWKWebViewController.h */,
 				48DA23A8233B6C2600FCD7D9 /* ANSWKWebViewController.m */,
-				48DA23A9233B6C2600FCD7D9 /* ANSWebViewController.h */,
-				48DA23AA233B6C2600FCD7D9 /* ANSWebViewController.m */,
-				48DA23AB233B6C2600FCD7D9 /* ANSWKWebViewController.h */,
-				48DA23AC233B6C2600FCD7D9 /* ANSWebViewController.xib */,
 			);
 			path = Hybrid;
 			sourceTree = "<group>";
@@ -330,18 +319,18 @@
 		E8DC83F4236054FC00DC0FC6 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E8DC840A236054FC00DC0FC6 /* ANSDemoController.h */,
+				E8DC83FB236054FC00DC0FC6 /* ANSDemoController.m */,
+				E8DC840B236054FC00DC0FC6 /* ANSHomeViewController.h */,
+				E8DC83FA236054FC00DC0FC6 /* ANSHomeViewController.m */,
+				E854FFF22414CF3900CA2FBA /* ANSListTableViewController.h */,
+				E854FFF32414CF3900CA2FBA /* ANSListTableViewController.m */,
 				E8DC83F9236054FC00DC0FC6 /* ANSDemoCollectionHeaderView.h */,
 				E8DC840C236054FC00DC0FC6 /* ANSDemoCollectionHeaderView.m */,
 				E8DC8407236054FC00DC0FC6 /* ANSDemoCollectionHeaderView.xib */,
 				E8DC8402236054FC00DC0FC6 /* ANSDemoCollectionViewCell.h */,
 				E8DC840F236054FC00DC0FC6 /* ANSDemoCollectionViewCell.m */,
 				E8DC83FF236054FC00DC0FC6 /* ANSDemoCollectionViewCell.xib */,
-				E8DC840A236054FC00DC0FC6 /* ANSDemoController.h */,
-				E8DC83FB236054FC00DC0FC6 /* ANSDemoController.m */,
-				E8DC840B236054FC00DC0FC6 /* ANSHomeViewController.h */,
-				E8DC83FA236054FC00DC0FC6 /* ANSHomeViewController.m */,
-				E8DC83F6236054FC00DC0FC6 /* ANSMutiThreadTestViewController.h */,
-				E8DC8405236054FC00DC0FC6 /* ANSMutiThreadTestViewController.m */,
 				E8DC840E236054FC00DC0FC6 /* ANSPresentViewController.h */,
 				E8DC8401236054FC00DC0FC6 /* ANSPresentViewController.m */,
 				E8AAE86823AC6E540034A5E7 /* ANSCaseViewController.h */,
@@ -358,8 +347,6 @@
 				E8DC83F7236054FC00DC0FC6 /* NextViewController.m */,
 				E8DC83FE236054FC00DC0FC6 /* PageDetailViewController.h */,
 				E8DC840D236054FC00DC0FC6 /* PageDetailViewController.m */,
-				E8DC8406236054FC00DC0FC6 /* UnitTestCase.h */,
-				E8DC83F5236054FC00DC0FC6 /* UnitTestCase.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -375,7 +362,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				624421675A3E6ADDD5FFC06A /* [CP] Embed Pods Frameworks */,
+				F2E95C0E1BC64D865657ACE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -449,7 +436,6 @@
 			files = (
 				48DA23A5233B6C1200FCD7D9 /* DataSource.plist in Resources */,
 				E8DC841C236054FC00DC0FC6 /* ANSDemoCollectionHeaderView.xib in Resources */,
-				48DA23B0233B6C2700FCD7D9 /* ANSWebViewController.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				E8DC8418236054FC00DC0FC6 /* ANSDemoCollectionViewCell.xib in Resources */,
@@ -494,7 +480,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		624421675A3E6ADDD5FFC06A /* [CP] Embed Pods Frameworks */ = {
+		F2E95C0E1BC64D865657ACE5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -523,6 +509,7 @@
 				48DA23C5233B6C3000FCD7D9 /* ANSTouchId.m in Sources */,
 				E8AAE86E23AC6E8A0034A5E7 /* ANSTableHeaderFooterView.m in Sources */,
 				E8DC8421236054FC00DC0FC6 /* AppDelegate.m in Sources */,
+				E854FFF42414CF3900CA2FBA /* ANSListTableViewController.m in Sources */,
 				48DA23C6233B6C3000FCD7D9 /* UIColor+Transform.m in Sources */,
 				E8DC8416236054FC00DC0FC6 /* ANSDemoController.m in Sources */,
 				48DA239F233B6C0300FCD7D9 /* ANSBaseViewController.m in Sources */,
@@ -532,21 +519,18 @@
 				E8DC8417236054FC00DC0FC6 /* ANSDemoTableViewCell.m in Sources */,
 				48DA23C7233B6C3000FCD7D9 /* UIView+KeyboardAnimation.m in Sources */,
 				48DA239A233B6C0300FCD7D9 /* ANSNavigationViewController.m in Sources */,
-				48DA23AF233B6C2700FCD7D9 /* ANSWebViewController.m in Sources */,
 				E8AAE86A23AC6E540034A5E7 /* ANSCaseViewController.m in Sources */,
 				48DA23CA233B6C3000FCD7D9 /* ANSButton.m in Sources */,
 				E8DC841F236054FC00DC0FC6 /* PageDetailViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				E8DC841A236054FC00DC0FC6 /* ANSPresentViewController.m in Sources */,
 				E8DC841E236054FC00DC0FC6 /* ANSDemoCollectionHeaderView.m in Sources */,
-				E8DC841B236054FC00DC0FC6 /* ANSMutiThreadTestViewController.m in Sources */,
 				48DA23C3233B6C3000FCD7D9 /* ANSTextField.m in Sources */,
 				E8DC8415236054FC00DC0FC6 /* ANSHomeViewController.m in Sources */,
 				48DA23C8233B6C3000FCD7D9 /* UIView+CustomLayout.m in Sources */,
 				48DA23C4233B6C3000FCD7D9 /* UIView+MGO.m in Sources */,
 				E8DC8413236054FC00DC0FC6 /* NextViewController.m in Sources */,
 				48DA23AE233B6C2700FCD7D9 /* ANSWKWebViewController.m in Sources */,
-				E8DC8412236054FC00DC0FC6 /* UnitTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +662,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "AnalysysSDK/AnalysysSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.analysys.AnalysysSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -695,6 +680,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "AnalysysSDK/AnalysysSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.analysys.AnalysysSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
